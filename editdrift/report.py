@@ -56,6 +56,19 @@ def style(ax):
 
 
 BADGE = {"Black Forest Labs": "BFL", "OpenAI": "AI", "Ideogram": "Id", "Google": "G", "ByteDance": "BD", "xAI": "xAI", "Alibaba": "Qw"}
+LOGO = {"Black Forest Labs": "bfl", "OpenAI": "openai", "Ideogram": "ideogram", "Google": "google", "ByteDance": "bytedance", "xAI": "xai", "Alibaba": "alibaba"}
+_LOGO_DIR = os.path.join(os.path.dirname(__file__), "assets", "logos")
+
+
+def _logo(vendor, px):
+    """White vendor logo (LobeHub icons, MIT) as an RGBA array fitted inside a px x px box, or None."""
+    import numpy as np
+    from PIL import Image
+    f = os.path.join(_LOGO_DIR, LOGO.get(vendor, "_") + ".png")
+    if not os.path.exists(f):
+        return None
+    im = Image.open(f).convert("RGBA"); im.thumbnail((px, px), Image.LANCZOS)
+    return np.asarray(im)
 
 
 def leaderboard(rows, out, title="Image Models Ranked by Edit Fidelity",
@@ -74,9 +87,13 @@ def leaderboard(rows, out, title="Image Models Ranked by Edit Fidelity",
                                     facecolor=c, edgecolor="none", zorder=2))
     for xi, v, r in zip(x, vals, rows):
         ax.text(xi, v + 1.6, f"{v:.1f}", ha="center", va="bottom", fontsize=12, fontweight="bold", color=INK, zorder=3)
-        b = BADGE.get(r.get("vendor"), "?")
-        if v > 14:
-            ax.text(xi, v - 6.5, b, ha="center", va="center", fontsize=12 if len(b) < 3 else 10, fontweight="bold", color="white", zorder=3)
+        lg = _logo(r.get("vendor"), 64)
+        if v > 14 and lg is not None:
+            from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+            ax.add_artist(AnnotationBbox(OffsetImage(lg, zoom=0.42), (xi, v - 7.5), frameon=False, zorder=3))
+        elif v > 14:
+            b = BADGE.get(r.get("vendor"), "?")
+            ax.text(xi, v - 6.5, b, ha="center", va="center", fontsize=12, fontweight="bold", color="white", zorder=3)
     ax.set_xlim(-0.6, n - 0.4); ax.set_ylim(0, 108)
     ax.set_yticks([0, 20, 40, 60, 80, 100])
     ax.set_ylabel("Edit Fidelity Score", fontsize=12, color=INK2)
@@ -95,9 +112,14 @@ def leaderboard(rows, out, title="Image Models Ranked by Edit Fidelity",
     tw = sum(0.035 + 0.0085 * len(v) for v, _, _ in items) + 0.02 * (len(items) - 1)
     lx = 0.5 - tw / 2 * (10 / W) * 1.0
     for v, c, b in items:
-        fig.patches.append(FancyBboxPatch((lx, 0.815), 0.022 * 10 / W, 0.038, boxstyle="round,pad=0,rounding_size=0.006",
-                                          transform=fig.transFigure, facecolor=c, edgecolor="none"))
-        fig.text(lx + 0.011 * 10 / W, 0.834, b, ha="center", va="center", fontsize=6.5 if len(b) > 2 else 7.5, fontweight="bold", color="white")
+        sq = fig.add_axes([lx, 0.815, 0.022 * 10 / W, 0.038], zorder=4); sq.axis("off")
+        sq.add_patch(FancyBboxPatch((0, 0), 1, 1, boxstyle="round,pad=0,rounding_size=0.18", transform=sq.transAxes, facecolor=c, edgecolor="none"))
+        lg = _logo(v, 48)
+        if lg is not None:
+            iax = fig.add_axes([lx + 0.003 * 10 / W, 0.819, 0.016 * 10 / W, 0.03], zorder=5); iax.imshow(lg, aspect="equal")
+            iax.axis("off"); iax.patch.set_alpha(0)
+        else:
+            fig.text(lx + 0.011 * 10 / W, 0.834, b, ha="center", va="center", fontsize=7.5, fontweight="bold", color="white")
         fig.text(lx + 0.03 * 10 / W, 0.834, v, ha="left", va="center", fontsize=11, color=INK)
         lx += (0.05 + 0.0085 * len(v)) * 10 / W + 0.012
     fig.text(0.5, 0.025, "Edit Fidelity Score = 100 − mean pixel drift (0–255) in areas no edit touched, over all edits. "

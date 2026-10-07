@@ -19,7 +19,7 @@ editdrift = "editdrift.cli:main"
 packages = ["editdrift"]
 
 [tool.setuptools.package-data]
-editdrift = ["assets/*"]
+editdrift = ["assets/*", "assets/logos/*"]
 
 [project.urls]
 Homepage = "https://github.com/MegaTroll222/edit-drift"

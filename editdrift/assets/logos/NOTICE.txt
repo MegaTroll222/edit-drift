@@ -1,0 +1,3 @@
+Vendor logos from LobeHub Icons (@lobehub/icons-static-svg 1.95.1, MIT License),
+https://github.com/lobehub/lobe-icons. Logos are trademarks of their owners and are
+used here only to identify each vendor in benchmark charts.
