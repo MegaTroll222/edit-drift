@@ -1,0 +1,259 @@
+{
+ "summary": {
+  "fidelity_score": 86.8,
+  "final_drift": 24.74,
+  "mean_drift": 13.19,
+  "max_drift": 24.74,
+  "slope_per_edit": 2.437,
+  "steps": 8,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 4,
+   "orb": 1,
+   "none": 3
+  },
+  "aspect_mismatch_steps": 0
+ },
+ "steps": [
+  {
+   "drift": 4.033863547758284,
+   "per_roi": [
+    3.379111111111111,
+    6.226444444444445,
+    2.496035087719298
+   ],
+   "drift_unaligned": 4.063178008808028,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0043,
+     0.0002,
+     -0.1401
+    ],
+    [
+     -0.0014,
+     1.0009,
+     2.5107
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 1,
+   "file": "results/milk-partial/qwen-image-3/step01.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 8.375056956176449,
+   "per_roi": [
+    6.657853909465021,
+    12.462533333333333,
+    6.004783625730994
+   ],
+   "drift_unaligned": 8.059303046711427,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0093,
+     -0.0028,
+     1.9901
+    ],
+    [
+     -0.0059,
+     1.0062,
+     3.6212
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 2,
+   "file": "results/milk-partial/qwen-image-3/step02.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 11.118022323297957,
+   "per_roi": [
+    9.993335390946502,
+    17.493655555555556,
+    5.867076023391813
+   ],
+   "drift_unaligned": 10.87328400115515,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.005,
+     0.0037,
+     2.2831
+    ],
+    [
+     -0.0043,
+     1.0082,
+     6.5218
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 3,
+   "file": "results/milk-partial/qwen-image-3/step03.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 12.202598519962457,
+   "per_roi": [
+    11.349267489711934,
+    19.388855555555555,
+    5.869672514619883
+   ],
+   "drift_unaligned": 11.851451490867086,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0275,
+     -0.0003,
+     -3.8172
+    ],
+    [
+     -0.0327,
+     1.0048,
+     25.7604
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 4,
+   "file": "results/milk-partial/qwen-image-3/step04.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 12.235753793949897,
+   "per_roi": [
+    10.473662551440329,
+    20.794955555555557,
+    5.438643274853801
+   ],
+   "drift_unaligned": 12.121143383149231,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0144,
+     0.0016,
+     5.3061
+    ],
+    [
+     -0.0016,
+     1.0144,
+     8.1315
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 5,
+   "file": "results/milk-partial/qwen-image-3/step05.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 14.537333910908961,
+   "per_roi": [
+    12.115606995884773,
+    24.12227777777778,
+    7.374116959064327
+   ],
+   "drift_unaligned": 14.537333910908961,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 6,
+   "file": "results/milk-partial/qwen-image-3/step06.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 18.26802537722908,
+   "per_roi": [
+    15.562909465020576,
+    29.54761111111111,
+    9.693555555555555
+   ],
+   "drift_unaligned": 18.26802537722908,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 7,
+   "file": "results/milk-partial/qwen-image-3/step07.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 24.738328987076745,
+   "per_roi": [
+    22.0009670781893,
+    36.98362222222222,
+    15.230397660818713
+   ],
+   "drift_unaligned": 24.738328987076745,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 8,
+   "file": "results/milk-partial/qwen-image-3/step08.jpg",
+   "blocked": false
+  }
+ ]
+}

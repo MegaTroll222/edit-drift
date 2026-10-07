@@ -10,12 +10,15 @@
 | 2 | FLUX 3 | Black Forest Labs | box edit | **96.8** | 3.2 | 3.5 | 0.07 |
 | 3 | GPT Image 2.5 Sunburst | OpenAI | mask edit | **73.4** | 26.6 | 45.3 | 0.95 |
 | 4 | Seedream 5 Pro | ByteDance | plain instruction | **67.1** | 32.9 | 44.8 | 0.94 |
-| 5 | Grok Imagine 2.0 | xAI | plain instruction | **58.5** | 41.5 | 98.4 | 2.45 |
-| 6 | Nano Banana 2 | Google | plain instruction | **56.0** | 44.0 | 94.3 | 2.46 |
-| 7 | Nano Banana 2.1 | Google | plain instruction | **54.9** | 45.1 | 92.8 | 2.46 |
-| 8 | Seedream 4.5 | ByteDance | plain instruction | **31.9** | 68.1 | 65.8 | 1.41 |
+| 5 | GPT Image 2 | OpenAI | mask edit | **61.2** | 38.8 | 73.9 | 1.86 |
+| 6 | Grok Imagine 2.0 | xAI | plain instruction | **58.5** | 41.5 | 98.4 | 2.45 |
+| 7 | Nano Banana 2 | Google | plain instruction | **56.0** | 44.0 | 94.3 | 2.46 |
+| 8 | Nano Banana 2.1 | Google | plain instruction | **54.9** | 45.1 | 92.8 | 2.46 |
+| 9 | Seedream 4.5 | ByteDance | plain instruction | **31.9** | 68.1 | 65.8 | 1.41 |
 
-*Milk benchmark, October 2026. Qwen Image 3, GPT Image 2 and GPT Image 2.5 Flare are still running and will be added.*
+*Milk benchmark, October 2026. All 9 ranked models completed all 40 edits.*
+
+**Partial runs (not ranked).** Qwen Image 3 and GPT Image 2.5 Flare did not complete the chain, so they are not scored against full runs; their images are in [`results/milk-partial/`](results/milk-partial/). Qwen Image 3 stopped after 8 edits at drift 24.7 (FLUX 3 at the same edit: 0.5, Nano Banana 2.1: 13.7). GPT Image 2.5 Flare's content filter refused its own output from edit 12 onward (160+ attempts); at edit 11 it was at drift 19.4 (FLUX 3: 3.5, Nano Banana 2.1: 20.9).
 
 ## See it
 

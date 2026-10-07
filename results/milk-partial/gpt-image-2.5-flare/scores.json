@@ -1,0 +1,349 @@
+{
+ "summary": {
+  "fidelity_score": 86.2,
+  "final_drift": 19.35,
+  "mean_drift": 13.81,
+  "max_drift": 19.35,
+  "slope_per_edit": 1.642,
+  "steps": 11,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 7,
+   "orb": 0,
+   "none": 4
+  },
+  "aspect_mismatch_steps": 0
+ },
+ "steps": [
+  {
+   "drift": 2.4407829326402424,
+   "per_roi": [
+    2.8662160493827162,
+    2.782588888888889,
+    1.6735438596491228
+   ],
+   "drift_unaligned": 2.425678911269944,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     0.0001,
+     0.0638
+    ],
+    [
+     -0.0009,
+     0.9994,
+     1.2806
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 1,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step01.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 5.83129913363656,
+   "per_roi": [
+    7.1469506172839505,
+    6.186455555555556,
+    4.160491228070176
+   ],
+   "drift_unaligned": 5.8586643635838564,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9972,
+     -0.0008,
+     1.9839
+    ],
+    [
+     -0.0034,
+     0.9967,
+     3.958
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 2,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step02.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 9.208357302721824,
+   "per_roi": [
+    10.21327366255144,
+    10.627833333333333,
+    6.783964912280702
+   ],
+   "drift_unaligned": 9.259225297812433,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9961,
+     -0.0013,
+     3.2253
+    ],
+    [
+     -0.004,
+     0.996,
+     4.6291
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 3,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step03.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 12.232711833080643,
+   "per_roi": [
+    14.7179670781893,
+    14.5368,
+    7.443368421052631
+   ],
+   "drift_unaligned": 11.906803689264313,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0082,
+     -0.0062,
+     2.3816
+    ],
+    [
+     -0.0078,
+     0.9965,
+     3.0486
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 4,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step04.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 14.147807125839288,
+   "per_roi": [
+    16.314728395061728,
+    17.339277777777777,
+    8.789415204678363
+   ],
+   "drift_unaligned": 13.93561480759512,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0063,
+     -0.0061,
+     3.7679
+    ],
+    [
+     -0.0067,
+     0.9957,
+     3.7164
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 5,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step05.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 15.59172126922244,
+   "per_roi": [
+    16.325567901234567,
+    18.801011111111112,
+    11.648584795321637
+   ],
+   "drift_unaligned": 16.37766712872717,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9955,
+     0.0131,
+     -17.7895
+    ],
+    [
+     -0.0107,
+     0.9885,
+     24.2483
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 6,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step06.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 16.844312461194136,
+   "per_roi": [
+    17.380491769547326,
+    21.16308888888889,
+    11.989356725146198
+   ],
+   "drift_unaligned": 17.442616034943324,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9934,
+     0.009,
+     -11.3651
+    ],
+    [
+     -0.0117,
+     0.991,
+     21.1046
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 7,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step07.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 18.812723832214278,
+   "per_roi": [
+    19.82358436213992,
+    24.471733333333333,
+    12.14285380116959
+   ],
+   "drift_unaligned": 18.812723832214278,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 8,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step08.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 18.852584434336872,
+   "per_roi": [
+    19.51840534979424,
+    25.701055555555556,
+    11.338292397660819
+   ],
+   "drift_unaligned": 18.852584434336872,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 9,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step09.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 18.64854309436142,
+   "per_roi": [
+    18.48184156378601,
+    25.837366666666668,
+    11.62642105263158
+   ],
+   "drift_unaligned": 18.64854309436142,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 10,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step10.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 19.353434964984476,
+   "per_roi": [
+    18.666985596707818,
+    26.88448888888889,
+    12.508830409356726
+   ],
+   "drift_unaligned": 19.353434964984476,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    992,
+    1488
+   ],
+   "aspect_mismatch": false,
+   "step": 11,
+   "file": "results/milk-partial/gpt-image-2.5-flare/step11.jpg",
+   "blocked": false
+  }
+ ]
+}

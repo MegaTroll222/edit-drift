@@ -72,6 +72,24 @@
   "aspect_mismatch_steps": 0
  },
  {
+  "id": "gpt-image-2",
+  "name": "GPT Image 2",
+  "method": "mask edit",
+  "fidelity_score": 61.2,
+  "final_drift": 73.86,
+  "mean_drift": 38.76,
+  "max_drift": 73.86,
+  "slope_per_edit": 1.864,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 34,
+   "orb": 3,
+   "none": 3
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
   "id": "grok-imagine-2.0",
   "name": "Grok Imagine 2.0",
   "method": "plain instruction",
