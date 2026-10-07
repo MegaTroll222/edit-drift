@@ -1,0 +1,1219 @@
+{
+ "summary": {
+  "fidelity_score": 67.1,
+  "final_drift": 44.79,
+  "mean_drift": 32.86,
+  "max_drift": 44.79,
+  "slope_per_edit": 0.943,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 37,
+   "orb": 3,
+   "none": 0
+  },
+  "aspect_mismatch_steps": 0
+ },
+ "steps": [
+  {
+   "drift": 4.7315345895603205,
+   "per_roi": [
+    4.6478271604938275,
+    5.613466666666667,
+    3.9333099415204678
+   ],
+   "drift_unaligned": 4.71704720236806,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0011,
+     0.0004,
+     -0.7914
+    ],
+    [
+     -0.0013,
+     0.9994,
+     1.4509
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 1,
+   "file": "results/milk/seedream-5-pro/step01.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 6.917283712367337,
+   "per_roi": [
+    6.613438271604938,
+    7.347711111111111,
+    6.790701754385965
+   ],
+   "drift_unaligned": 6.8859984622048955,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0011,
+     -0.0032,
+     2.4934
+    ],
+    [
+     -0.0044,
+     0.9982,
+     3.0407
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 2,
+   "file": "results/milk/seedream-5-pro/step02.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 8.518504432892932,
+   "per_roi": [
+    8.536026748971194,
+    7.911533333333334,
+    9.10795321637427
+   ],
+   "drift_unaligned": 8.570481524799654,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9991,
+     -0.0002,
+     0.3076
+    ],
+    [
+     -0.0031,
+     0.9961,
+     4.4316
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 3,
+   "file": "results/milk/seedream-5-pro/step03.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 6.557986686881814,
+   "per_roi": [
+    6.081578189300411,
+    6.974966666666667,
+    6.6174152046783625
+   ],
+   "drift_unaligned": 7.259230315500685,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0018,
+     0.0058,
+     -5.0274
+    ],
+    [
+     -0.0022,
+     0.982,
+     18.1423
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 4,
+   "file": "results/milk/seedream-5-pro/step04.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 8.780690830986932,
+   "per_roi": [
+    8.571440329218108,
+    8.750433333333334,
+    9.020198830409356
+   ],
+   "drift_unaligned": 9.450556732365895,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0035,
+     0.0053,
+     -5.2923
+    ],
+    [
+     -0.0007,
+     0.9856,
+     14.5261
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 5,
+   "file": "results/milk/seedream-5-pro/step05.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 11.848469958847737,
+   "per_roi": [
+    12.595376543209877,
+    10.016033333333333,
+    12.934
+   ],
+   "drift_unaligned": 11.602988412388996,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0046,
+     0.0003,
+     -2.4568
+    ],
+    [
+     -0.0003,
+     1.0046,
+     -3.0551
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 6,
+   "file": "results/milk/seedream-5-pro/step06.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 14.874252386109307,
+   "per_roi": [
+    16.34330452674897,
+    13.757955555555556,
+    14.521497076023392
+   ],
+   "drift_unaligned": 14.722742639520611,
+   "registration": "orb",
+   "transform": [
+    [
+     1.003,
+     -0.0001,
+     -1.6514
+    ],
+    [
+     0.0001,
+     1.003,
+     -2.1327
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 7,
+   "file": "results/milk/seedream-5-pro/step07.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 18.202871937044257,
+   "per_roi": [
+    19.88983744855967,
+    17.054766666666666,
+    17.66401169590643
+   ],
+   "drift_unaligned": 17.995493574471155,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0038,
+     0.0007,
+     -2.2052
+    ],
+    [
+     -0.0007,
+     1.0038,
+     -2.3601
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 8,
+   "file": "results/milk/seedream-5-pro/step08.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 20.706364009818788,
+   "per_roi": [
+    21.372930041152262,
+    20.341144444444446,
+    20.40501754385965
+   ],
+   "drift_unaligned": 21.781453238033354,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0166,
+     -0.0071,
+     -4.0375
+    ],
+    [
+     0.0027,
+     0.9717,
+     24.7346
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 9,
+   "file": "results/milk/seedream-5-pro/step09.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 21.1307979929247,
+   "per_roi": [
+    21.380744855967077,
+    20.72511111111111,
+    21.286538011695907
+   ],
+   "drift_unaligned": 22.4071972204173,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9885,
+     -0.0143,
+     10.9233
+    ],
+    [
+     0.0108,
+     0.9742,
+     19.2403
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 10,
+   "file": "results/milk/seedream-5-pro/step10.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 25.091224648039855,
+   "per_roi": [
+    27.578104938271604,
+    22.07818888888889,
+    25.617380116959065
+   ],
+   "drift_unaligned": 25.611807378528624,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9815,
+     -0.0179,
+     18.7808
+    ],
+    [
+     -0.0005,
+     0.9911,
+     1.2495
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 11,
+   "file": "results/milk/seedream-5-pro/step11.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 28.507754833586024,
+   "per_roi": [
+    30.830199588477367,
+    25.70287777777778,
+    28.990187134502925
+   ],
+   "drift_unaligned": 29.106344401126275,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9885,
+     0.0038,
+     2.4931
+    ],
+    [
+     0.0036,
+     0.9926,
+     2.9907
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 12,
+   "file": "results/milk/seedream-5-pro/step12.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 31.0687972204173,
+   "per_roi": [
+    33.594026748971196,
+    29.071955555555554,
+    30.540409356725146
+   ],
+   "drift_unaligned": 31.615987914230022,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9885,
+     0.0034,
+     2.8112
+    ],
+    [
+     0.0034,
+     0.993,
+     2.8307
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 13,
+   "file": "results/milk/seedream-5-pro/step13.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 32.807271677135226,
+   "per_roi": [
+    35.92641152263374,
+    30.086222222222222,
+    32.40918128654971
+   ],
+   "drift_unaligned": 33.347170334271894,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9889,
+     0.003,
+     2.9687
+    ],
+    [
+     0.0031,
+     0.9933,
+     2.797
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 14,
+   "file": "results/milk/seedream-5-pro/step14.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 34.64668486751859,
+   "per_roi": [
+    37.626041152263376,
+    32.30063333333333,
+    34.01338011695906
+   ],
+   "drift_unaligned": 35.20126687603783,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9889,
+     0.0028,
+     3.2441
+    ],
+    [
+     0.0033,
+     0.993,
+     2.964
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 15,
+   "file": "results/milk/seedream-5-pro/step15.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 39.05975971410007,
+   "per_roi": [
+    42.69131481481482,
+    36.69067777777778,
+    37.7972865497076
+   ],
+   "drift_unaligned": 39.27618530792001,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9924,
+     -0.0007,
+     3.6481
+    ],
+    [
+     -0.0005,
+     0.9982,
+     1.652
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 16,
+   "file": "results/milk/seedream-5-pro/step16.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.0963656992275,
+   "per_roi": [
+    44.796393004115224,
+    38.532177777777775,
+    39.96052631578947
+   ],
+   "drift_unaligned": 41.36389329290304,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9928,
+     -0.0007,
+     3.7303
+    ],
+    [
+     -0.0001,
+     0.9982,
+     1.5513
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 17,
+   "file": "results/milk/seedream-5-pro/step17.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 43.55759052054003,
+   "per_roi": [
+    47.552818930041155,
+    40.500233333333334,
+    42.61971929824561
+   ],
+   "drift_unaligned": 43.81246803840878,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9917,
+     -0.0006,
+     3.8475
+    ],
+    [
+     -0.0022,
+     0.9991,
+     1.4342
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 18,
+   "file": "results/milk/seedream-5-pro/step18.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 42.755168659302576,
+   "per_roi": [
+    46.57563580246914,
+    40.586911111111114,
+    41.102959064327486
+   ],
+   "drift_unaligned": 43.17294044473323,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9919,
+     -0.0006,
+     3.8857
+    ],
+    [
+     -0.0021,
+     0.999,
+     1.4992
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 19,
+   "file": "results/milk/seedream-5-pro/step19.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 42.49416969171901,
+   "per_roi": [
+    45.28616872427983,
+    40.459088888888886,
+    41.7372514619883
+   ],
+   "drift_unaligned": 43.02321556566313,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9916,
+     -0.0009,
+     4.4461
+    ],
+    [
+     -0.002,
+     0.998,
+     2.5751
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 20,
+   "file": "results/milk/seedream-5-pro/step20.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 43.17580906793734,
+   "per_roi": [
+    45.36350205761317,
+    41.92386666666667,
+    42.240058479532166
+   ],
+   "drift_unaligned": 43.869788311313265,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9927,
+     -0.0012,
+     4.1271
+    ],
+    [
+     -0.0005,
+     0.9992,
+     0.6828
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 21,
+   "file": "results/milk/seedream-5-pro/step21.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.16545845787308,
+   "per_roi": [
+    43.26176543209876,
+    40.28018888888889,
+    39.95442105263158
+   ],
+   "drift_unaligned": 42.413275582990394,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9929,
+     -0.0012,
+     4.2572
+    ],
+    [
+     -0.0003,
+     0.9991,
+     0.7272
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 22,
+   "file": "results/milk/seedream-5-pro/step22.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 42.23997608114938,
+   "per_roi": [
+    43.8100329218107,
+    41.88843333333333,
+    41.0214619883041
+   ],
+   "drift_unaligned": 43.76878857844199,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9928,
+     -0.0012,
+     4.3251
+    ],
+    [
+     -0.0004,
+     0.9991,
+     0.802
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 23,
+   "file": "results/milk/seedream-5-pro/step23.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 42.21960243303732,
+   "per_roi": [
+    43.3516646090535,
+    42.38073333333333,
+    40.926409356725145
+   ],
+   "drift_unaligned": 43.90792091545737,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9902,
+     0.0026,
+     3.2832
+    ],
+    [
+     0.0013,
+     0.996,
+     1.9588
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 24,
+   "file": "results/milk/seedream-5-pro/step24.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.71281249729262,
+   "per_roi": [
+    42.45717901234568,
+    42.4652,
+    40.216058479532165
+   ],
+   "drift_unaligned": 43.52661843910187,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9902,
+     0.0023,
+     3.6273
+    ],
+    [
+     0.0027,
+     0.9922,
+     4.0426
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 25,
+   "file": "results/milk/seedream-5-pro/step25.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.5982163814887,
+   "per_roi": [
+    42.39283744855967,
+    42.70802222222222,
+    39.69378947368421
+   ],
+   "drift_unaligned": 43.41642294419176,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.99,
+     0.0024,
+     3.7096
+    ],
+    [
+     0.0029,
+     0.992,
+     4.0025
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 26,
+   "file": "results/milk/seedream-5-pro/step26.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.76845009746589,
+   "per_roi": [
+    42.811166666666665,
+    43.58273333333333,
+    38.91145029239766
+   ],
+   "drift_unaligned": 43.52986098476645,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9898,
+     0.0025,
+     3.807
+    ],
+    [
+     0.0034,
+     0.9915,
+     4.0156
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 27,
+   "file": "results/milk/seedream-5-pro/step27.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.163556522994725,
+   "per_roi": [
+    42.28021810699588,
+    43.03053333333333,
+    38.17991812865497
+   ],
+   "drift_unaligned": 43.00472022236662,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9898,
+     0.0027,
+     3.8339
+    ],
+    [
+     0.0053,
+     0.9895,
+     4.2169
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 28,
+   "file": "results/milk/seedream-5-pro/step28.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.88575336076818,
+   "per_roi": [
+    42.777471193415636,
+    44.344677777777775,
+    38.535111111111114
+   ],
+   "drift_unaligned": 43.60180676485452,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9896,
+     0.0029,
+     3.9139
+    ],
+    [
+     0.0056,
+     0.989,
+     4.3529
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 29,
+   "file": "results/milk/seedream-5-pro/step29.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.540702288643416,
+   "per_roi": [
+    42.09269341563786,
+    44.35958888888889,
+    38.16982456140351
+   ],
+   "drift_unaligned": 42.95469764637932,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9902,
+     0.0027,
+     4.0033
+    ],
+    [
+     0.0053,
+     0.9889,
+     4.356
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 30,
+   "file": "results/milk/seedream-5-pro/step30.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 39.6576050898852,
+   "per_roi": [
+    40.009956790123454,
+    43.14013333333333,
+    35.82272514619883
+   ],
+   "drift_unaligned": 41.00058083892859,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9896,
+     0.003,
+     4.0835
+    ],
+    [
+     0.0048,
+     0.989,
+     4.5422
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 31,
+   "file": "results/milk/seedream-5-pro/step31.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 39.060966645007575,
+   "per_roi": [
+    38.88670987654321,
+    42.36394444444444,
+    35.93224561403509
+   ],
+   "drift_unaligned": 40.2345933651,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9894,
+     0.0029,
+     4.3386
+    ],
+    [
+     0.0051,
+     0.9885,
+     4.7361
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 32,
+   "file": "results/milk/seedream-5-pro/step32.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 39.12472817125117,
+   "per_roi": [
+    39.26411316872428,
+    41.83731111111111,
+    36.27276023391813
+   ],
+   "drift_unaligned": 40.35111609270089,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9882,
+     0.0032,
+     4.6365
+    ],
+    [
+     0.0057,
+     0.9878,
+     4.7438
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 33,
+   "file": "results/milk/seedream-5-pro/step33.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 39.271647469496784,
+   "per_roi": [
+    39.72644650205761,
+    42.093022222222224,
+    35.99547368421052
+   ],
+   "drift_unaligned": 40.15695381560898,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9912,
+     -0.0007,
+     5.0281
+    ],
+    [
+     -0.0011,
+     0.9998,
+     0.7829
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 34,
+   "file": "results/milk/seedream-5-pro/step34.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 39.51695893437297,
+   "per_roi": [
+    39.342925925925925,
+    42.2716,
+    36.936350877192986
+   ],
+   "drift_unaligned": 40.19511093783842,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9923,
+     0.0005,
+     3.2868
+    ],
+    [
+     -0.0006,
+     1.001,
+     -0.5151
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 35,
+   "file": "results/milk/seedream-5-pro/step35.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.7091876326619,
+   "per_roi": [
+    41.305006172839505,
+    44.63431111111111,
+    39.18824561403509
+   ],
+   "drift_unaligned": 42.54752915312974,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9924,
+     0.0007,
+     3.1266
+    ],
+    [
+     -0.0005,
+     1.001,
+     -0.5409
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 36,
+   "file": "results/milk/seedream-5-pro/step36.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 43.1398724929608,
+   "per_roi": [
+    42.3915987654321,
+    45.75964444444445,
+    41.26837426900585
+   ],
+   "drift_unaligned": 43.579345383004835,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9894,
+     0.0006,
+     4.446
+    ],
+    [
+     -0.0012,
+     0.999,
+     1.155
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 37,
+   "file": "results/milk/seedream-5-pro/step37.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 43.120677402353614,
+   "per_roi": [
+    42.59511934156379,
+    45.57176666666667,
+    41.19514619883041
+   ],
+   "drift_unaligned": 43.51757367699083,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9895,
+     0.0005,
+     4.6069
+    ],
+    [
+     -0.0018,
+     0.9986,
+     1.6809
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 38,
+   "file": "results/milk/seedream-5-pro/step38.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 43.35525279763194,
+   "per_roi": [
+    43.46365020576132,
+    45.08438888888889,
+    41.517719298245616
+   ],
+   "drift_unaligned": 43.757328517796545,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9839,
+     0.0007,
+     7.2709
+    ],
+    [
+     -0.0017,
+     0.995,
+     4.4787
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 39,
+   "file": "results/milk/seedream-5-pro/step39.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 44.787139643347054,
+   "per_roi": [
+    44.923318930041155,
+    45.99498888888889,
+    43.44311111111111
+   ],
+   "drift_unaligned": 45.23477787163382,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9846,
+     0.0012,
+     6.6861
+    ],
+    [
+     -0.0049,
+     0.9927,
+     8.519
+    ]
+   ],
+   "output_size": [
+    1664,
+    2496
+   ],
+   "aspect_mismatch": false,
+   "step": 40,
+   "file": "results/milk/seedream-5-pro/step40.jpg",
+   "blocked": false
+  }
+ ]
+}

@@ -1,0 +1,1219 @@
+{
+ "summary": {
+  "fidelity_score": 99.0,
+  "final_drift": 0.71,
+  "mean_drift": 1.01,
+  "max_drift": 2.37,
+  "slope_per_edit": 0.014,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 30,
+   "orb": 10,
+   "none": 0
+  },
+  "aspect_mismatch_steps": 0
+ },
+ "steps": [
+  {
+   "drift": 0.21464944769330738,
+   "per_roi": [
+    0.3042962962962963,
+    0.2315,
+    0.10815204678362574
+   ],
+   "drift_unaligned": 0.08971302433037326,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     0.0004,
+     -0.64
+    ],
+    [
+     -0.0014,
+     0.9994,
+     1.5176
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 1,
+   "file": "results/milk/ideogram-4.5/step01.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.41946585806079,
+   "per_roi": [
+    2.1267057613168725,
+    1.1078555555555556,
+    1.0238362573099415
+   ],
+   "drift_unaligned": 0.1453816403147787,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9949,
+     -0.0025,
+     6.0434
+    ],
+    [
+     -0.0073,
+     0.9994,
+     2.855
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 2,
+   "file": "results/milk/ideogram-4.5/step02.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.7518367338098333,
+   "per_roi": [
+    2.3191604938271606,
+    1.3178,
+    1.6185497076023392
+   ],
+   "drift_unaligned": 0.1453816403147787,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9997,
+     -0.0066,
+     6.4407
+    ],
+    [
+     -0.0074,
+     0.9977,
+     3.9556
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 3,
+   "file": "results/milk/ideogram-4.5/step03.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 2.37187091184752,
+   "per_roi": [
+    3.1543641975308643,
+    1.6736111111111112,
+    2.287637426900585
+   ],
+   "drift_unaligned": 0.1481483069814454,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0001,
+     0.0135,
+     -13.324
+    ],
+    [
+     -0.0062,
+     0.977,
+     23.3069
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 4,
+   "file": "results/milk/ideogram-4.5/step04.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 2.369643116020504,
+   "per_roi": [
+    3.1488539094650205,
+    1.6714555555555555,
+    2.2886198830409357
+   ],
+   "drift_unaligned": 0.1481483069814454,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0003,
+     0.0133,
+     -13.2012
+    ],
+    [
+     -0.0064,
+     0.9769,
+     23.5099
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 5,
+   "file": "results/milk/ideogram-4.5/step05.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.19939312685004693,
+   "per_roi": [
+    0.11113786008230453,
+    0.07687777777777778,
+    0.41016374269005845
+   ],
+   "drift_unaligned": 0.19732179626019783,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0,
+     0.0709
+    ],
+    [
+     0.0,
+     0.9999,
+     0.0298
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 6,
+   "file": "results/milk/ideogram-4.5/step06.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.20060025990903183,
+   "per_roi": [
+    0.11475925925925926,
+    0.07687777777777778,
+    0.41016374269005845
+   ],
+   "drift_unaligned": 0.19732179626019783,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0,
+     0.0829
+    ],
+    [
+     0.0,
+     0.9999,
+     0.0419
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 7,
+   "file": "results/milk/ideogram-4.5/step07.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.20059957403797557,
+   "per_roi": [
+    0.11475720164609053,
+    0.07687777777777778,
+    0.41016374269005845
+   ],
+   "drift_unaligned": 0.19732179626019783,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0,
+     0.0829
+    ],
+    [
+     0.0,
+     0.9999,
+     0.0419
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 8,
+   "file": "results/milk/ideogram-4.5/step08.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.20059957403797557,
+   "per_roi": [
+    0.11475720164609053,
+    0.07687777777777778,
+    0.41016374269005845
+   ],
+   "drift_unaligned": 0.19732179626019783,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0,
+     0.0829
+    ],
+    [
+     0.0,
+     0.9999,
+     0.0419
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 9,
+   "file": "results/milk/ideogram-4.5/step09.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.20138969749476568,
+   "per_roi": [
+    0.1171275720164609,
+    0.07687777777777778,
+    0.41016374269005845
+   ],
+   "drift_unaligned": 0.19732179626019783,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0,
+     0.1048
+    ],
+    [
+     0.0,
+     0.9999,
+     0.0512
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 10,
+   "file": "results/milk/ideogram-4.5/step10.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.20093153562919644,
+   "per_roi": [
+    0.11575308641975308,
+    0.07687777777777778,
+    0.41016374269005845
+   ],
+   "drift_unaligned": 0.19732179626019783,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0001,
+     0.0923
+    ],
+    [
+     0.0001,
+     0.9999,
+     0.0336
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 11,
+   "file": "results/milk/ideogram-4.5/step11.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.24571494476933073,
+   "per_roi": [
+    0.11551851851851852,
+    0.07687777777777778,
+    0.5447485380116959
+   ],
+   "drift_unaligned": 0.24217949606526604,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0,
+     0.0839
+    ],
+    [
+     0.0,
+     0.9999,
+     0.0536
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 12,
+   "file": "results/milk/ideogram-4.5/step12.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.2457492383221428,
+   "per_roi": [
+    0.11562139917695473,
+    0.07687777777777778,
+    0.5447485380116959
+   ],
+   "drift_unaligned": 0.24217949606526604,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0,
+     0.0845
+    ],
+    [
+     0.0,
+     0.9999,
+     0.0537
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 13,
+   "file": "results/milk/ideogram-4.5/step13.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.24672750703920296,
+   "per_roi": [
+    0.1185679012345679,
+    0.07687777777777778,
+    0.5447368421052632
+   ],
+   "drift_unaligned": 0.24217949606526604,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0001,
+     0.1502
+    ],
+    [
+     0.0001,
+     0.9999,
+     -0.0148
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 14,
+   "file": "results/milk/ideogram-4.5/step14.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.24856559815175797,
+   "per_roi": [
+    0.12372427983539094,
+    0.07696666666666667,
+    0.5450058479532164
+   ],
+   "drift_unaligned": 0.24217949606526604,
+   "registration": "orb",
+   "transform": [
+    [
+     0.9999,
+     -0.0002,
+     0.2059
+    ],
+    [
+     0.0002,
+     0.9999,
+     -0.0442
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 15,
+   "file": "results/milk/ideogram-4.5/step15.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.8149780376868095,
+   "per_roi": [
+    0.9108703703703703,
+    0.35834444444444447,
+    1.175719298245614
+   ],
+   "drift_unaligned": 0.2986629268644863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0049,
+     -0.0006,
+     -2.7343
+    ],
+    [
+     -0.003,
+     0.998,
+     3.1102
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 16,
+   "file": "results/milk/ideogram-4.5/step16.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.8229120424518085,
+   "per_roi": [
+    0.9219753086419753,
+    0.36043333333333333,
+    1.186327485380117
+   ],
+   "drift_unaligned": 0.2986629268644863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.005,
+     -0.0006,
+     -2.7494
+    ],
+    [
+     -0.003,
+     0.998,
+     3.1247
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 17,
+   "file": "results/milk/ideogram-4.5/step17.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.7618373402642408,
+   "per_roi": [
+    0.758783950617284,
+    0.34994444444444445,
+    1.176783625730994
+   ],
+   "drift_unaligned": 0.2986629268644863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0045,
+     -0.0005,
+     -2.6659
+    ],
+    [
+     -0.0031,
+     0.9981,
+     3.067
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 18,
+   "file": "results/milk/ideogram-4.5/step18.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.7940037181430943,
+   "per_roi": [
+    0.8177304526748971,
+    0.3615555555555556,
+    1.2027251461988304
+   ],
+   "drift_unaligned": 0.2986629268644863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0045,
+     -0.0004,
+     -2.6919
+    ],
+    [
+     -0.0028,
+     0.9979,
+     2.9979
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 19,
+   "file": "results/milk/ideogram-4.5/step19.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.6840255721608548,
+   "per_roi": [
+    0.7280205761316872,
+    0.3287111111111111,
+    0.9953450292397661
+   ],
+   "drift_unaligned": 0.2986629268644863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0044,
+     -0.0005,
+     -2.417
+    ],
+    [
+     -0.0032,
+     0.9992,
+     2.7228
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 20,
+   "file": "results/milk/ideogram-4.5/step20.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.494452732654682,
+   "per_roi": [
+    0.3435576131687243,
+    0.09645555555555556,
+    1.0433450292397661
+   ],
+   "drift_unaligned": 0.2986629268644863,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9999,
+     0.0001,
+     -0.0804
+    ],
+    [
+     0.0015,
+     0.9991,
+     -0.6915
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 21,
+   "file": "results/milk/ideogram-4.5/step21.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.5234606526604577,
+   "per_roi": [
+    0.3026275720164609,
+    0.30733333333333335,
+    0.960421052631579
+   ],
+   "drift_unaligned": 0.3319689697494766,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0001,
+     -0.0006,
+     0.3142
+    ],
+    [
+     0.0015,
+     1.0002,
+     -1.4903
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 22,
+   "file": "results/milk/ideogram-4.5/step22.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.523217695473251,
+   "per_roi": [
+    0.3034197530864198,
+    0.3073444444444444,
+    0.9588888888888889
+   ],
+   "drift_unaligned": 0.3319689697494766,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0001,
+     -0.0006,
+     0.311
+    ],
+    [
+     0.0016,
+     1.0002,
+     -1.4916
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 23,
+   "file": "results/milk/ideogram-4.5/step23.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 2.0793112699444083,
+   "per_roi": [
+    2.6636460905349795,
+    1.4696444444444445,
+    2.1046432748538013
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.009,
+     -0.0041,
+     -2.4691
+    ],
+    [
+     0.0107,
+     0.99,
+     4.1311
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 24,
+   "file": "results/milk/ideogram-4.5/step24.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.9485184391018702,
+   "per_roi": [
+    2.5645658436213994,
+    0.9160888888888888,
+    2.3649005847953215
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9978,
+     0.005,
+     -1.8853
+    ],
+    [
+     0.0087,
+     0.9894,
+     1.4808
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 25,
+   "file": "results/milk/ideogram-4.5/step25.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.942071243953505,
+   "per_roi": [
+    2.559497942386831,
+    0.9075111111111112,
+    2.3592046783625733
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9976,
+     0.0052,
+     -1.8941
+    ],
+    [
+     0.0084,
+     0.9897,
+     1.4808
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 26,
+   "file": "results/milk/ideogram-4.5/step26.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.938889553100859,
+   "per_roi": [
+    2.5561008230452673,
+    0.9045444444444445,
+    2.3560233918128657
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9976,
+     0.0053,
+     -1.908
+    ],
+    [
+     0.0083,
+     0.9899,
+     1.4523
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 27,
+   "file": "results/milk/ideogram-4.5/step27.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.9390129160349432,
+   "per_roi": [
+    2.556695473251029,
+    0.9048111111111111,
+    2.3555321637426903
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9976,
+     0.0053,
+     -1.9088
+    ],
+    [
+     0.0083,
+     0.9899,
+     1.4536
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 28,
+   "file": "results/milk/ideogram-4.5/step28.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.9402177821095947,
+   "per_roi": [
+    2.5581358024691356,
+    0.9086111111111111,
+    2.353906432748538
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9976,
+     0.0053,
+     -1.9539
+    ],
+    [
+     0.0083,
+     0.9899,
+     1.4479
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 29,
+   "file": "results/milk/ideogram-4.5/step29.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.9383979857050033,
+   "per_roi": [
+    2.556185185185185,
+    0.9050555555555555,
+    2.353953216374269
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9976,
+     0.0053,
+     -1.9534
+    ],
+    [
+     0.0083,
+     0.9899,
+     1.4402
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 30,
+   "file": "results/milk/ideogram-4.5/step30.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.9385950689480904,
+   "per_roi": [
+    2.5575226337448558,
+    0.9054555555555556,
+    2.3528070175438596
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9975,
+     0.0054,
+     -1.9549
+    ],
+    [
+     0.0082,
+     0.9899,
+     1.4432
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 31,
+   "file": "results/milk/ideogram-4.5/step31.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.7481182369504007,
+   "per_roi": [
+    2.3056172839506175,
+    0.6759888888888889,
+    2.262748538011696
+   ],
+   "drift_unaligned": 0.34336078261497366,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0019,
+     -0.0,
+     -0.6832
+    ],
+    [
+     0.0072,
+     0.992,
+     0.9054
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 32,
+   "file": "results/milk/ideogram-4.5/step32.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.970854754169374,
+   "per_roi": [
+    2.6013765432098763,
+    0.9912111111111112,
+    2.3199766081871345
+   ],
+   "drift_unaligned": 0.34894752725434985,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9976,
+     0.0059,
+     -2.2925
+    ],
+    [
+     0.0083,
+     0.9889,
+     2.1482
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 33,
+   "file": "results/milk/ideogram-4.5/step33.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.6112443000505379,
+   "per_roi": [
+    0.5113621399176955,
+    0.25406666666666666,
+    1.0683040935672514
+   ],
+   "drift_unaligned": 0.36552452530503216,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9997,
+     0.0003,
+     -0.4101
+    ],
+    [
+     0.0009,
+     0.9999,
+     -0.8964
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 34,
+   "file": "results/milk/ideogram-4.5/step34.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.6608944769330735,
+   "per_roi": [
+    0.5331851851851852,
+    0.36464444444444444,
+    1.0848538011695907
+   ],
+   "drift_unaligned": 0.36552452530503216,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9999,
+     0.0005,
+     -0.6286
+    ],
+    [
+     0.0009,
+     0.9999,
+     -0.909
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 35,
+   "file": "results/milk/ideogram-4.5/step35.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.698311522633745,
+   "per_roi": [
+    0.5909012345679012,
+    0.41736666666666666,
+    1.0866666666666667
+   ],
+   "drift_unaligned": 0.36552452530503216,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9997,
+     0.0005,
+     -0.6003
+    ],
+    [
+     0.0008,
+     0.9999,
+     -0.8755
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 36,
+   "file": "results/milk/ideogram-4.5/step36.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.7777384376579309,
+   "per_roi": [
+    0.6699094650205761,
+    0.4916333333333333,
+    1.171672514619883
+   ],
+   "drift_unaligned": 0.36552452530503216,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9994,
+     0.0005,
+     -0.5931
+    ],
+    [
+     0.0005,
+     0.9997,
+     -0.6943
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 37,
+   "file": "results/milk/ideogram-4.5/step37.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.8506480470724136,
+   "per_roi": [
+    0.9296090534979424,
+    0.5583,
+    1.0640350877192983
+   ],
+   "drift_unaligned": 0.4022574687748177,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9996,
+     0.0004,
+     -0.5585
+    ],
+    [
+     0.0008,
+     1.0006,
+     -1.5085
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 38,
+   "file": "results/milk/ideogram-4.5/step38.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.7681117175655187,
+   "per_roi": [
+    0.8212345679012346,
+    0.45397777777777776,
+    1.0291228070175438
+   ],
+   "drift_unaligned": 0.4022574687748177,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9998,
+     0.0003,
+     -0.5469
+    ],
+    [
+     0.001,
+     1.0009,
+     -1.66
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 39,
+   "file": "results/milk/ideogram-4.5/step39.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.7138437802324743,
+   "per_roi": [
+    0.6288991769547325,
+    0.4724333333333333,
+    1.0401988304093568
+   ],
+   "drift_unaligned": 0.4022574687748177,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0009,
+     0.0011,
+     -1.8302
+    ],
+    [
+     -0.0008,
+     0.9997,
+     0.5123
+    ]
+   ],
+   "output_size": [
+    1000,
+    1500
+   ],
+   "aspect_mismatch": false,
+   "step": 40,
+   "file": "results/milk/ideogram-4.5/step40.jpg",
+   "blocked": false
+  }
+ ]
+}

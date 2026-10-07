@@ -1,0 +1,1219 @@
+{
+ "summary": {
+  "fidelity_score": 96.8,
+  "final_drift": 3.52,
+  "mean_drift": 3.18,
+  "max_drift": 4.42,
+  "slope_per_edit": 0.072,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 32,
+   "orb": 8,
+   "none": 0
+  },
+  "aspect_mismatch_steps": 0
+ },
+ "steps": [
+  {
+   "drift": 0.5641117103458234,
+   "per_roi": [
+    0.681619341563786,
+    0.4606222222222222,
+    0.550093567251462
+   ],
+   "drift_unaligned": 0.5357934445166413,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0006,
+     0.0003,
+     -0.5705
+    ],
+    [
+     -0.001,
+     0.9994,
+     1.2274
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 1,
+   "file": "results/milk/flux-3/step01.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.0301708974081294,
+   "per_roi": [
+    0.8738004115226338,
+    0.7566888888888889,
+    1.4600233918128656
+   ],
+   "drift_unaligned": 0.5361482203451015,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9936,
+     -0.0025,
+     5.9972
+    ],
+    [
+     -0.0026,
+     0.9972,
+     2.2223
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 2,
+   "file": "results/milk/flux-3/step02.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 1.0874409501119053,
+   "per_roi": [
+    0.9962304526748971,
+    0.7131333333333333,
+    1.5529590643274853
+   ],
+   "drift_unaligned": 0.5361482203451015,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9927,
+     -0.0026,
+     6.1812
+    ],
+    [
+     -0.0039,
+     0.9971,
+     2.7241
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 3,
+   "file": "results/milk/flux-3/step03.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.5361482203451015,
+   "per_roi": [
+    0.5959300411522633,
+    0.4588888888888889,
+    0.553625730994152
+   ],
+   "drift_unaligned": 0.5361482203451015,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0,
+     -0.0,
+     0.0288
+    ],
+    [
+     0.0,
+     1.0,
+     -0.013
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 4,
+   "file": "results/milk/flux-3/step04.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.5361482203451015,
+   "per_roi": [
+    0.5959300411522633,
+    0.4588888888888889,
+    0.553625730994152
+   ],
+   "drift_unaligned": 0.5361482203451015,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0,
+     -0.0,
+     0.0226
+    ],
+    [
+     0.0,
+     1.0,
+     -0.0159
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 5,
+   "file": "results/milk/flux-3/step05.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.5380396000288789,
+   "per_roi": [
+    0.6002942386831276,
+    0.4588888888888889,
+    0.5549356725146198
+   ],
+   "drift_unaligned": 0.5365848675185907,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0,
+     -0.0,
+     0.0682
+    ],
+    [
+     0.0,
+     1.0,
+     -0.0006
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 6,
+   "file": "results/milk/flux-3/step06.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.5376383654609777,
+   "per_roi": [
+    0.5990905349794239,
+    0.4588888888888889,
+    0.5549356725146198
+   ],
+   "drift_unaligned": 0.5365848675185907,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0,
+     -0.0,
+     0.0455
+    ],
+    [
+     0.0,
+     1.0,
+     0.0131
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 7,
+   "file": "results/milk/flux-3/step07.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 0.5380540033210598,
+   "per_roi": [
+    0.6003374485596707,
+    0.4588888888888889,
+    0.5549356725146198
+   ],
+   "drift_unaligned": 0.5365848675185907,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0,
+     -0.0,
+     0.0557
+    ],
+    [
+     0.0,
+     1.0,
+     0.023
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 8,
+   "file": "results/milk/flux-3/step08.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.4511779149519892,
+   "per_roi": [
+    2.8883559670781893,
+    5.048066666666666,
+    2.417111111111111
+   ],
+   "drift_unaligned": 3.447728705508627,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0001,
+     0.0001,
+     -0.0579
+    ],
+    [
+     -0.0001,
+     1.0001,
+     -0.0487
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 9,
+   "file": "results/milk/flux-3/step09.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.4487015305754096,
+   "per_roi": [
+    2.880761316872428,
+    5.048033333333334,
+    2.4173099415204677
+   ],
+   "drift_unaligned": 3.447728705508627,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0002,
+     -0.0001,
+     0.0629
+    ],
+    [
+     0.0001,
+     1.0002,
+     -0.1414
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 10,
+   "file": "results/milk/flux-3/step10.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.4549627319327123,
+   "per_roi": [
+    2.8988683127572017,
+    5.048066666666666,
+    2.417953216374269
+   ],
+   "drift_unaligned": 3.447728705508627,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0001,
+     0.0005,
+     -0.2776
+    ],
+    [
+     -0.0005,
+     1.0001,
+     0.1817
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 11,
+   "file": "results/milk/flux-3/step11.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.423736437802325,
+   "per_roi": [
+    4.691158436213992,
+    5.297255555555555,
+    3.282795321637427
+   ],
+   "drift_unaligned": 3.4478690563858208,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0169,
+     -0.0059,
+     -2.484
+    ],
+    [
+     0.0132,
+     0.9761,
+     16.0379
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 12,
+   "file": "results/milk/flux-3/step12.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.412892787524366,
+   "per_roi": [
+    4.672,
+    5.293111111111111,
+    3.2735672514619885
+   ],
+   "drift_unaligned": 3.4478690563858208,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0171,
+     -0.0061,
+     -2.3948
+    ],
+    [
+     0.0134,
+     0.9765,
+     15.6494
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 13,
+   "file": "results/milk/flux-3/step13.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.4119370370370365,
+   "per_roi": [
+    4.671166666666666,
+    5.293755555555555,
+    3.270888888888889
+   ],
+   "drift_unaligned": 3.4478690563858208,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0171,
+     -0.0061,
+     -2.4181
+    ],
+    [
+     0.0134,
+     0.9766,
+     15.5675
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 14,
+   "file": "results/milk/flux-3/step14.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.395936055158472,
+   "per_roi": [
+    4.641440329218107,
+    5.291455555555555,
+    3.2549122807017543
+   ],
+   "drift_unaligned": 3.4478690563858208,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0179,
+     -0.0061,
+     -2.91
+    ],
+    [
+     0.0134,
+     0.9772,
+     15.1258
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 15,
+   "file": "results/milk/flux-3/step15.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.505225644357808,
+   "per_roi": [
+    2.926061728395062,
+    5.0462,
+    2.5434152046783627
+   ],
+   "drift_unaligned": 3.4475766587250014,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0026,
+     0.0008,
+     -1.5714
+    ],
+    [
+     -0.0028,
+     0.9981,
+     2.5634
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 16,
+   "file": "results/milk/flux-3/step16.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.505945975019854,
+   "per_roi": [
+    2.9228168724279837,
+    5.0466,
+    2.548421052631579
+   ],
+   "drift_unaligned": 3.4475766587250014,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0026,
+     0.0008,
+     -1.5894
+    ],
+    [
+     -0.0028,
+     0.998,
+     2.5908
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 17,
+   "file": "results/milk/flux-3/step17.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.511080831708902,
+   "per_roi": [
+    2.923185185185185,
+    5.044688888888889,
+    2.5653684210526317
+   ],
+   "drift_unaligned": 3.4475766587250014,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0029,
+     0.0008,
+     -1.6832
+    ],
+    [
+     -0.0031,
+     0.998,
+     2.6857
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 18,
+   "file": "results/milk/flux-3/step18.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5116201068514905,
+   "per_roi": [
+    2.92301646090535,
+    5.0447444444444445,
+    2.5670994152046784
+   ],
+   "drift_unaligned": 3.4475766587250014,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0029,
+     0.0008,
+     -1.6895
+    ],
+    [
+     -0.0031,
+     0.998,
+     2.6764
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 19,
+   "file": "results/milk/flux-3/step19.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5015519312685,
+   "per_roi": [
+    2.9206008230452674,
+    5.0427333333333335,
+    2.5413216374269005
+   ],
+   "drift_unaligned": 3.4475766587250014,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0028,
+     0.0008,
+     -1.5773
+    ],
+    [
+     -0.003,
+     0.9982,
+     2.5759
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 20,
+   "file": "results/milk/flux-3/step20.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.521847498375569,
+   "per_roi": [
+    3.0395185185185185,
+    5.031988888888889,
+    2.4940350877192983
+   ],
+   "drift_unaligned": 3.4475766587250014,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0014,
+     -0.0002,
+     0.049
+    ],
+    [
+     -0.0012,
+     0.9995,
+     0.2967
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 21,
+   "file": "results/milk/flux-3/step21.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5456541477149663,
+   "per_roi": [
+    3.1451975308641975,
+    5.030911111111111,
+    2.460853801169591
+   ],
+   "drift_unaligned": 3.446453851707458,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0016,
+     -0.0001,
+     -0.1427
+    ],
+    [
+     -0.0009,
+     1.0001,
+     -0.3349
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 22,
+   "file": "results/milk/flux-3/step22.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.545848935094939,
+   "per_roi": [
+    3.145337448559671,
+    5.031355555555556,
+    2.460853801169591
+   ],
+   "drift_unaligned": 3.446453851707458,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0016,
+     -0.0001,
+     -0.1488
+    ],
+    [
+     -0.0009,
+     1.0001,
+     -0.3389
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 23,
+   "file": "results/milk/flux-3/step23.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.107239751642481,
+   "per_roi": [
+    4.079102880658437,
+    5.210511111111111,
+    3.0321052631578946
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0129,
+     -0.0082,
+     1.0058
+    ],
+    [
+     0.0081,
+     0.9889,
+     6.6647
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 24,
+   "file": "results/milk/flux-3/step24.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.083315760594903,
+   "per_roi": [
+    3.9065946502057614,
+    5.118966666666667,
+    3.2243859649122806
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0079,
+     -0.0061,
+     1.5905
+    ],
+    [
+     0.006,
+     0.9907,
+     2.6177
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 25,
+   "file": "results/milk/flux-3/step25.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.099045592376002,
+   "per_roi": [
+    3.9332098765432097,
+    5.115833333333334,
+    3.248093567251462
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0064,
+     -0.0044,
+     1.2057
+    ],
+    [
+     0.0062,
+     0.9901,
+     2.8811
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 26,
+   "file": "results/milk/flux-3/step26.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.080616403147787,
+   "per_roi": [
+    3.9036831275720165,
+    5.117733333333334,
+    3.2204327485380118
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0079,
+     -0.0061,
+     1.5942
+    ],
+    [
+     0.006,
+     0.9909,
+     2.5837
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 27,
+   "file": "results/milk/flux-3/step27.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.0793968883113125,
+   "per_roi": [
+    3.902448559670782,
+    5.117344444444444,
+    3.2183976608187135
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0079,
+     -0.0061,
+     1.5979
+    ],
+    [
+     0.0059,
+     0.9909,
+     2.58
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 28,
+   "file": "results/milk/flux-3/step28.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.08390921233124,
+   "per_roi": [
+    3.9073621399176957,
+    5.1195,
+    3.2248654970760233
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0079,
+     -0.006,
+     1.5735
+    ],
+    [
+     0.0061,
+     0.9907,
+     2.599
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 29,
+   "file": "results/milk/flux-3/step29.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.080100693090752,
+   "per_roi": [
+    3.9005061728395063,
+    5.1174333333333335,
+    3.222362573099415
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0081,
+     -0.0062,
+     1.5905
+    ],
+    [
+     0.0059,
+     0.9909,
+     2.5639
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 30,
+   "file": "results/milk/flux-3/step30.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.082477055808245,
+   "per_roi": [
+    3.9041440329218107,
+    5.118211111111111,
+    3.225076023391813
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0081,
+     -0.0061,
+     1.5779
+    ],
+    [
+     0.006,
+     0.9907,
+     2.5774
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 31,
+   "file": "results/milk/flux-3/step31.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.0828915457367705,
+   "per_roi": [
+    3.9046810699588477,
+    5.118344444444444,
+    3.2256491228070177
+   ],
+   "drift_unaligned": 3.4460951772435204,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0081,
+     -0.0061,
+     1.5782
+    ],
+    [
+     0.006,
+     0.9907,
+     2.5824
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 32,
+   "file": "results/milk/flux-3/step32.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.1300905494188145,
+   "per_roi": [
+    3.9686687242798353,
+    5.132211111111111,
+    3.289391812865497
+   ],
+   "drift_unaligned": 3.445693617789329,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0062,
+     -0.0045,
+     1.3468
+    ],
+    [
+     0.0068,
+     0.9887,
+     3.4751
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 33,
+   "file": "results/milk/flux-3/step33.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5159600245469638,
+   "per_roi": [
+    3.0004362139917697,
+    5.033455555555555,
+    2.513988304093567
+   ],
+   "drift_unaligned": 3.4474402064832863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0012,
+     -0.0002,
+     0.4658
+    ],
+    [
+     -0.0008,
+     0.9995,
+     0.2124
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 34,
+   "file": "results/milk/flux-3/step34.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5161043318171976,
+   "per_roi": [
+    3.0008024691358024,
+    5.0335222222222225,
+    2.513988304093567
+   ],
+   "drift_unaligned": 3.4474402064832863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0012,
+     -0.0002,
+     0.4702
+    ],
+    [
+     -0.0008,
+     0.9995,
+     0.2099
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 35,
+   "file": "results/milk/flux-3/step35.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5155811060573243,
+   "per_roi": [
+    3.0003415637860082,
+    5.033255555555556,
+    2.5131461988304094
+   ],
+   "drift_unaligned": 3.4474402064832863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0012,
+     -0.0002,
+     0.4761
+    ],
+    [
+     -0.0008,
+     0.9995,
+     0.2138
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 36,
+   "file": "results/milk/flux-3/step36.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5184957764782325,
+   "per_roi": [
+    2.993314814814815,
+    5.033166666666666,
+    2.5290058479532163
+   ],
+   "drift_unaligned": 3.4474402064832863,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0011,
+     -0.0002,
+     0.4799
+    ],
+    [
+     -0.0008,
+     0.9994,
+     0.2713
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 37,
+   "file": "results/milk/flux-3/step37.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5467663417803763,
+   "per_roi": [
+    3.103203703703704,
+    5.0287444444444445,
+    2.5083508771929823
+   ],
+   "drift_unaligned": 3.4472881596996605,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0012,
+     -0.0004,
+     0.5205
+    ],
+    [
+     -0.0012,
+     0.9996,
+     0.1547
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 38,
+   "file": "results/milk/flux-3/step38.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.5445836185112984,
+   "per_roi": [
+    3.1114958847736625,
+    5.028711111111111,
+    2.493543859649123
+   ],
+   "drift_unaligned": 3.4472881596996605,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0013,
+     -0.0004,
+     0.516
+    ],
+    [
+     -0.0011,
+     0.9997,
+     0.098
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 39,
+   "file": "results/milk/flux-3/step39.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.519630604288499,
+   "per_roi": [
+    2.9926666666666666,
+    5.0375,
+    2.5287251461988305
+   ],
+   "drift_unaligned": 3.4472881596996605,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.002,
+     -0.0,
+     -0.0961
+    ],
+    [
+     -0.0024,
+     0.999,
+     1.6299
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 40,
+   "file": "results/milk/flux-3/step40.jpg",
+   "blocked": false
+  }
+ ]
+}

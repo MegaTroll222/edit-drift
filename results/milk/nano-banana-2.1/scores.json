@@ -1,0 +1,1219 @@
+{
+ "summary": {
+  "fidelity_score": 54.9,
+  "final_drift": 92.85,
+  "mean_drift": 45.13,
+  "max_drift": 92.85,
+  "slope_per_edit": 2.465,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 34,
+   "orb": 5,
+   "none": 1
+  },
+  "aspect_mismatch_steps": 0
+ },
+ "steps": [
+  {
+   "drift": 1.5785986210381922,
+   "per_roi": [
+    1.748880658436214,
+    1.178611111111111,
+    1.8083040935672514
+   ],
+   "drift_unaligned": 1.5740281568117824,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     0.0004,
+     -0.7772
+    ],
+    [
+     -0.0011,
+     0.9994,
+     1.3511
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 1,
+   "file": "results/milk/nano-banana-2.1/step01.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.0505042957187207,
+   "per_roi": [
+    3.259837448559671,
+    2.2139444444444445,
+    3.677730994152047
+   ],
+   "drift_unaligned": 3.0619429571872065,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9994,
+     0.0004,
+     -0.2922
+    ],
+    [
+     -0.0033,
+     0.9966,
+     4.0984
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 2,
+   "file": "results/milk/nano-banana-2.1/step02.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.1467742617861525,
+   "per_roi": [
+    4.251329218106996,
+    2.6751222222222224,
+    5.51387134502924
+   ],
+   "drift_unaligned": 4.198876420475056,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9986,
+     0.0004,
+     -0.1557
+    ],
+    [
+     -0.0039,
+     0.9962,
+     4.429
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 3,
+   "file": "results/milk/nano-banana-2.1/step03.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 4.887293069092485,
+   "per_roi": [
+    4.866104938271605,
+    3.6696222222222223,
+    6.126152046783626
+   ],
+   "drift_unaligned": 5.542326683993935,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9914,
+     0.0033,
+     1.2389
+    ],
+    [
+     -0.0231,
+     0.9675,
+     39.4262
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 4,
+   "file": "results/milk/nano-banana-2.1/step04.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 5.844231347917119,
+   "per_roi": [
+    5.867923868312757,
+    4.825366666666667,
+    6.83940350877193
+   ],
+   "drift_unaligned": 6.719337188650639,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9918,
+     0.0017,
+     2.2727
+    ],
+    [
+     -0.0286,
+     0.9608,
+     48.0161
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 5,
+   "file": "results/milk/nano-banana-2.1/step05.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 8.55365138979135,
+   "per_roi": [
+    9.310736625514403,
+    6.472311111111111,
+    9.877906432748539
+   ],
+   "drift_unaligned": 8.558208100498158,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0001,
+     0.0002,
+     -0.1616
+    ],
+    [
+     -0.0002,
+     1.0001,
+     0.0566
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 6,
+   "file": "results/milk/nano-banana-2.1/step06.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 11.086585567829038,
+   "per_roi": [
+    11.873495884773662,
+    8.609488888888889,
+    12.77677192982456
+   ],
+   "drift_unaligned": 11.090333867590788,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0003,
+     0.0,
+     -0.1809
+    ],
+    [
+     -0.0,
+     1.0003,
+     -0.2628
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 7,
+   "file": "results/milk/nano-banana-2.1/step07.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 13.747852436647173,
+   "per_roi": [
+    14.2985,
+    10.983244444444445,
+    15.961812865497077
+   ],
+   "drift_unaligned": 13.755597682477799,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0002,
+     0.0,
+     -0.1127
+    ],
+    [
+     -0.0,
+     1.0002,
+     -0.1139
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 8,
+   "file": "results/milk/nano-banana-2.1/step08.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 16.222487300555915,
+   "per_roi": [
+    17.19970576131687,
+    12.9333,
+    18.534456140350876
+   ],
+   "drift_unaligned": 15.96373251750776,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0029,
+     0.0014,
+     -2.9349
+    ],
+    [
+     -0.0014,
+     1.0029,
+     -1.2778
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 9,
+   "file": "results/milk/nano-banana-2.1/step09.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 19.582869554544796,
+   "per_roi": [
+    18.928979423868313,
+    15.23548888888889,
+    24.584140350877192
+   ],
+   "drift_unaligned": 19.582869554544796,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 10,
+   "file": "results/milk/nano-banana-2.1/step10.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 20.862996996606743,
+   "per_roi": [
+    20.261121399176954,
+    16.70692222222222,
+    25.620947368421053
+   ],
+   "drift_unaligned": 20.759435448704064,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0009,
+     0.0,
+     -0.1011
+    ],
+    [
+     -0.0,
+     1.0009,
+     -0.558
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 11,
+   "file": "results/milk/nano-banana-2.1/step11.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 21.733288080283014,
+   "per_roi": [
+    22.749205761316873,
+    19.2386,
+    23.212058479532164
+   ],
+   "drift_unaligned": 22.79656413255361,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0042,
+     -0.0085,
+     2.0664
+    ],
+    [
+     -0.0049,
+     0.9844,
+     13.8701
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 12,
+   "file": "results/milk/nano-banana-2.1/step12.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 24.370705934589562,
+   "per_roi": [
+    25.336382716049382,
+    21.882144444444446,
+    25.893590643274855
+   ],
+   "drift_unaligned": 25.437002252544943,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0041,
+     -0.0085,
+     2.0646
+    ],
+    [
+     -0.0047,
+     0.9841,
+     14.0817
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 13,
+   "file": "results/milk/nano-banana-2.1/step13.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 27.077521442495126,
+   "per_roi": [
+    27.798333333333332,
+    24.359833333333334,
+    29.074397660818715
+   ],
+   "drift_unaligned": 28.109428308425382,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0042,
+     -0.0085,
+     2.0394
+    ],
+    [
+     -0.0048,
+     0.9841,
+     14.2479
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 14,
+   "file": "results/milk/nano-banana-2.1/step14.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 29.53271648256444,
+   "per_roi": [
+    30.383672839506172,
+    26.77027777777778,
+    31.444198830409356
+   ],
+   "drift_unaligned": 30.584216814670423,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0044,
+     -0.0084,
+     1.9469
+    ],
+    [
+     -0.0037,
+     0.9826,
+     14.6979
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 15,
+   "file": "results/milk/nano-banana-2.1/step15.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 33.339415190238974,
+   "per_roi": [
+    34.10238065843621,
+    29.078122222222223,
+    36.83774269005848
+   ],
+   "drift_unaligned": 33.33250455562776,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9962,
+     0.0003,
+     0.1139
+    ],
+    [
+     -0.0079,
+     1.0016,
+     3.3307
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 16,
+   "file": "results/milk/nano-banana-2.1/step16.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 35.99014733954227,
+   "per_roi": [
+    37.07170576131687,
+    31.596677777777778,
+    39.302058479532164
+   ],
+   "drift_unaligned": 35.97722433759296,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9958,
+     0.0005,
+     0.1397
+    ],
+    [
+     -0.0076,
+     1.0018,
+     3.2158
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 17,
+   "file": "results/milk/nano-banana-2.1/step17.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 39.019986766298466,
+   "per_roi": [
+    40.834012345679014,
+    34.7241,
+    41.50184795321638
+   ],
+   "drift_unaligned": 39.06727505595264,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9966,
+     -0.0003,
+     0.1779
+    ],
+    [
+     -0.0076,
+     1.0029,
+     2.4641
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 18,
+   "file": "results/milk/nano-banana-2.1/step18.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 42.47974552739874,
+   "per_roi": [
+    44.55595061728395,
+    38.41201111111111,
+    44.47127485380117
+   ],
+   "drift_unaligned": 42.494668890332825,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9961,
+     0.0006,
+     0.0146
+    ],
+    [
+     -0.0072,
+     1.0024,
+     2.6636
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 19,
+   "file": "results/milk/nano-banana-2.1/step19.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 44.770976045050894,
+   "per_roi": [
+    47.49329012345679,
+    41.158877777777775,
+    45.660760233918126
+   ],
+   "drift_unaligned": 44.744030517652156,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9979,
+     -0.0004,
+     0.162
+    ],
+    [
+     -0.0077,
+     1.0042,
+     2.2356
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 20,
+   "file": "results/milk/nano-banana-2.1/step20.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 45.661860089524225,
+   "per_roi": [
+    48.54397325102881,
+    42.641688888888886,
+    45.79991812865497
+   ],
+   "drift_unaligned": 45.630631687242804,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9967,
+     -0.0018,
+     2.2483
+    ],
+    [
+     -0.0026,
+     1.0063,
+     -2.4052
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 21,
+   "file": "results/milk/nano-banana-2.1/step21.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 47.532857865858055,
+   "per_roi": [
+    51.13059465020576,
+    44.68528888888889,
+    46.78269005847953
+   ],
+   "drift_unaligned": 47.560675878997905,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9957,
+     -0.0031,
+     3.4048
+    ],
+    [
+     -0.0037,
+     1.0064,
+     -2.1416
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 22,
+   "file": "results/milk/nano-banana-2.1/step22.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 49.826408497581404,
+   "per_roi": [
+    54.129732510288065,
+    47.83741111111111,
+    47.51208187134503
+   ],
+   "drift_unaligned": 49.86523048877337,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9955,
+     -0.003,
+     3.4826
+    ],
+    [
+     -0.0035,
+     1.0063,
+     -2.028
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 23,
+   "file": "results/milk/nano-banana-2.1/step23.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 52.505623153562915,
+   "per_roi": [
+    56.8406975308642,
+    51.223844444444445,
+    49.45232748538012
+   ],
+   "drift_unaligned": 52.96546144682694,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0022,
+     -0.0102,
+     5.7166
+    ],
+    [
+     -0.002,
+     1.0014,
+     0.6454
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 24,
+   "file": "results/milk/nano-banana-2.1/step24.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 55.66266353331889,
+   "per_roi": [
+    60.15854732510288,
+    54.61235555555555,
+    52.21708771929825
+   ],
+   "drift_unaligned": 56.09828885279041,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0008,
+     -0.0108,
+     6.5932
+    ],
+    [
+     -0.0014,
+     1.0005,
+     1.0064
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 25,
+   "file": "results/milk/nano-banana-2.1/step25.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 59.08996055158473,
+   "per_roi": [
+    63.67018106995885,
+    58.07924444444444,
+    55.52045614035088
+   ],
+   "drift_unaligned": 59.47664119558155,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     -0.011,
+     6.7845
+    ],
+    [
+     -0.0015,
+     1.0005,
+     1.0712
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 26,
+   "file": "results/milk/nano-banana-2.1/step26.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 61.81153329001517,
+   "per_roi": [
+    66.55730864197531,
+    60.852133333333335,
+    58.02515789473684
+   ],
+   "drift_unaligned": 62.18653178831854,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     -0.0112,
+     6.9764
+    ],
+    [
+     -0.0013,
+     1.0008,
+     1.0013
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 27,
+   "file": "results/milk/nano-banana-2.1/step27.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 64.00238693235146,
+   "per_roi": [
+    69.31488477366256,
+    63.34364444444444,
+    59.34863157894737
+   ],
+   "drift_unaligned": 64.36675647967657,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     -0.0115,
+     7.2435
+    ],
+    [
+     -0.0012,
+     1.0007,
+     1.0472
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 28,
+   "file": "results/milk/nano-banana-2.1/step28.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 66.31082592592593,
+   "per_roi": [
+    71.85255555555555,
+    66.27125555555556,
+    60.80866666666667
+   ],
+   "drift_unaligned": 66.65432917478883,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     -0.0119,
+     7.6119
+    ],
+    [
+     -0.0013,
+     1.0008,
+     1.1421
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 29,
+   "file": "results/milk/nano-banana-2.1/step29.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 68.67187151830193,
+   "per_roi": [
+    74.75193209876544,
+    69.27247777777778,
+    61.99120467836257
+   ],
+   "drift_unaligned": 68.98940721247563,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0008,
+     -0.0122,
+     7.8605
+    ],
+    [
+     -0.0012,
+     1.0004,
+     1.423
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 30,
+   "file": "results/milk/nano-banana-2.1/step30.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 71.44569724207638,
+   "per_roi": [
+    77.70020576131687,
+    72.64072222222222,
+    63.99616374269006
+   ],
+   "drift_unaligned": 71.74182872716771,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     -0.0125,
+     8.1915
+    ],
+    [
+     -0.0012,
+     1.0003,
+     1.5812
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 31,
+   "file": "results/milk/nano-banana-2.1/step31.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 73.69650179048445,
+   "per_roi": [
+    79.76185390946502,
+    75.62951111111111,
+    65.6981403508772
+   ],
+   "drift_unaligned": 73.96706499169734,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0007,
+     -0.0128,
+     8.4094
+    ],
+    [
+     -0.0012,
+     1.0003,
+     1.6591
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 32,
+   "file": "results/milk/nano-banana-2.1/step32.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 76.79458928597212,
+   "per_roi": [
+    82.30522633744856,
+    78.53748888888889,
+    69.54105263157895
+   ],
+   "drift_unaligned": 77.05328519962458,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0003,
+     -0.0123,
+     8.165
+    ],
+    [
+     -0.0011,
+     1.0003,
+     1.67
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 33,
+   "file": "results/milk/nano-banana-2.1/step33.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 78.58475506461627,
+   "per_roi": [
+    84.22472016460905,
+    80.86042222222223,
+    70.66912280701754
+   ],
+   "drift_unaligned": 78.81548854956321,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9948,
+     -0.0018,
+     4.0705
+    ],
+    [
+     -0.0006,
+     1.002,
+     0.268
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 34,
+   "file": "results/milk/nano-banana-2.1/step34.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 81.59098242726157,
+   "per_roi": [
+    87.31392798353909,
+    83.83307777777777,
+    73.62594152046783
+   ],
+   "drift_unaligned": 81.78173107356871,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9941,
+     -0.002,
+     4.6446
+    ],
+    [
+     -0.0006,
+     1.0011,
+     1.0609
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 35,
+   "file": "results/milk/nano-banana-2.1/step35.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 84.16981895170024,
+   "per_roi": [
+    90.12485802469136,
+    86.74906666666666,
+    75.6355321637427
+   ],
+   "drift_unaligned": 84.35375341852574,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9939,
+     -0.0021,
+     4.8068
+    ],
+    [
+     -0.0006,
+     1.0009,
+     1.2641
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 36,
+   "file": "results/milk/nano-banana-2.1/step36.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 86.83567673092195,
+   "per_roi": [
+    92.93545884773663,
+    89.67703333333333,
+    77.8945380116959
+   ],
+   "drift_unaligned": 87.00324586672441,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9936,
+     -0.0022,
+     4.974
+    ],
+    [
+     -0.0008,
+     1.0006,
+     1.5415
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 37,
+   "file": "results/milk/nano-banana-2.1/step37.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 89.14298302649628,
+   "per_roi": [
+    95.89871399176955,
+    92.43997777777778,
+    79.09025730994152
+   ],
+   "drift_unaligned": 89.3316933434409,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9936,
+     -0.0025,
+     5.3537
+    ],
+    [
+     -0.0031,
+     0.9992,
+     3.4562
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 38,
+   "file": "results/milk/nano-banana-2.1/step38.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 91.16773003393257,
+   "per_roi": [
+    98.33317489711933,
+    95.12682222222222,
+    80.04319298245613
+   ],
+   "drift_unaligned": 91.39346666666665,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9944,
+     -0.0026,
+     5.3128
+    ],
+    [
+     -0.0033,
+     0.9992,
+     3.6843
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 39,
+   "file": "results/milk/nano-banana-2.1/step39.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 92.85370458450653,
+   "per_roi": [
+    99.88139094650205,
+    97.14037777777777,
+    81.53934502923977
+   ],
+   "drift_unaligned": 93.47517858638366,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.9939,
+     -0.003,
+     6.2339
+    ],
+    [
+     -0.0036,
+     0.9922,
+     11.1221
+    ]
+   ],
+   "output_size": [
+    843,
+    1264
+   ],
+   "aspect_mismatch": false,
+   "step": 40,
+   "file": "results/milk/nano-banana-2.1/step40.jpg",
+   "blocked": false
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "name": "Seedream 4.5",
+ "method": "plain instruction",
+ "endpoint": "fal fal-ai/bytedance/seedream/v4.5/edit",
+ "params": {
+  "image_size": {
+   "width": 1600,
+   "height": 2400
+  }
+ },
+ "date": "2026-10-07",
+ "notes": "Edits that hit the provider content filter were retried until accepted; see README.",
+ "vendor": "ByteDance"
+}

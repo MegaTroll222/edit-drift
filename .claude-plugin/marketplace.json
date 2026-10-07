@@ -1,0 +1,11 @@
+{
+  "name": "edit-drift",
+  "owner": {"name": "MightyKing", "url": "https://github.com/MegaTroll222"},
+  "plugins": [
+    {
+      "name": "edit-drift",
+      "source": "./",
+      "description": "Run the Edit Drift benchmark on any image-editing model and score the result."
+    }
+  ]
+}

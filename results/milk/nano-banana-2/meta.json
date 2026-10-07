@@ -1,0 +1,12 @@
+{
+ "name": "Nano Banana 2",
+ "method": "plain instruction",
+ "endpoint": "fal fal-ai/nano-banana-2/edit",
+ "params": {
+  "resolution": "1K",
+  "output_format": "png"
+ },
+ "date": "2026-10-07",
+ "notes": "Edits that hit the provider content filter were retried until accepted; see README.",
+ "vendor": "Google"
+}

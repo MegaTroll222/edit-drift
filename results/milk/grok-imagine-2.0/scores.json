@@ -1,0 +1,1219 @@
+{
+ "summary": {
+  "fidelity_score": 58.5,
+  "final_drift": 98.43,
+  "mean_drift": 41.52,
+  "max_drift": 98.43,
+  "slope_per_edit": 2.449,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 5,
+   "orb": 2,
+   "none": 33
+  },
+  "aspect_mismatch_steps": 0
+ },
+ "steps": [
+  {
+   "drift": 1.3830742329073713,
+   "per_roi": [
+    1.5385349794238683,
+    1.2220444444444445,
+    1.3886432748538011
+   ],
+   "drift_unaligned": 1.789829283084254,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0049,
+     0.0004,
+     -2.1471
+    ],
+    [
+     -0.0015,
+     1.0029,
+     0.0736
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 1,
+   "file": "results/milk/grok-imagine-2.0/step01.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 3.501350790556639,
+   "per_roi": [
+    3.3494506172839507,
+    2.489011111111111,
+    4.665590643274854
+   ],
+   "drift_unaligned": 3.537763266190167,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0068,
+     -0.0001,
+     -3.3174
+    ],
+    [
+     -0.0045,
+     1.0021,
+     1.578
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 2,
+   "file": "results/milk/grok-imagine-2.0/step02.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 5.2149085697783555,
+   "per_roi": [
+    5.529329218106996,
+    4.624355555555556,
+    5.4910409356725145
+   ],
+   "drift_unaligned": 4.957452609919861,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0147,
+     0.0003,
+     -6.6575
+    ],
+    [
+     -0.0057,
+     1.0058,
+     -0.7569
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 3,
+   "file": "results/milk/grok-imagine-2.0/step03.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 6.722045368565446,
+   "per_roi": [
+    6.486748971193416,
+    6.371644444444445,
+    7.30774269005848
+   ],
+   "drift_unaligned": 6.501910728467259,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0147,
+     0.0059,
+     -10.5318
+    ],
+    [
+     -0.0129,
+     0.9999,
+     11.3014
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 4,
+   "file": "results/milk/grok-imagine-2.0/step04.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 8.243349895314417,
+   "per_roi": [
+    8.943718106995885,
+    8.0497,
+    7.736631578947368
+   ],
+   "drift_unaligned": 7.341320366760523,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0326,
+     -0.0027,
+     -10.2023
+    ],
+    [
+     -0.0167,
+     1.0086,
+     7.1161
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 5,
+   "file": "results/milk/grok-imagine-2.0/step05.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 11.742575402498014,
+   "per_roi": [
+    11.845423868312757,
+    10.635588888888888,
+    12.746713450292397
+   ],
+   "drift_unaligned": 9.85376049382716,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0313,
+     0.0027,
+     -12.6082
+    ],
+    [
+     -0.0027,
+     1.0313,
+     -16.4279
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 6,
+   "file": "results/milk/grok-imagine-2.0/step06.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 12.310447180708975,
+   "per_roi": [
+    12.570004115226338,
+    11.2477,
+    13.113637426900585
+   ],
+   "drift_unaligned": 10.164936806006786,
+   "registration": "orb",
+   "transform": [
+    [
+     1.0355,
+     0.0026,
+     -13.688
+    ],
+    [
+     -0.0026,
+     1.0355,
+     -18.5359
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 7,
+   "file": "results/milk/grok-imagine-2.0/step07.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 11.66439837556855,
+   "per_roi": [
+    11.879407407407408,
+    13.050477777777777,
+    10.063309941520467
+   ],
+   "drift_unaligned": 11.66439837556855,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 8,
+   "file": "results/milk/grok-imagine-2.0/step08.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 13.12486380044762,
+   "per_roi": [
+    13.311310699588477,
+    15.021666666666667,
+    11.041614035087719
+   ],
+   "drift_unaligned": 13.12486380044762,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 9,
+   "file": "results/milk/grok-imagine-2.0/step09.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 14.761629824561403,
+   "per_roi": [
+    14.733555555555556,
+    17.210433333333334,
+    12.340900584795321
+   ],
+   "drift_unaligned": 14.761629824561403,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 10,
+   "file": "results/milk/grok-imagine-2.0/step10.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 17.064594982311746,
+   "per_roi": [
+    16.712584362139918,
+    19.6343,
+    14.846900584795321
+   ],
+   "drift_unaligned": 17.064594982311746,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 11,
+   "file": "results/milk/grok-imagine-2.0/step11.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 17.70252158688903,
+   "per_roi": [
+    17.001360082304526,
+    21.01877777777778,
+    15.087426900584795
+   ],
+   "drift_unaligned": 17.70252158688903,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 12,
+   "file": "results/milk/grok-imagine-2.0/step12.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 18.378888094722402,
+   "per_roi": [
+    17.299158436213993,
+    21.710944444444443,
+    16.126561403508774
+   ],
+   "drift_unaligned": 18.378888094722402,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 13,
+   "file": "results/milk/grok-imagine-2.0/step13.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 21.056157822539888,
+   "per_roi": [
+    19.76229218106996,
+    24.585444444444445,
+    18.820736842105262
+   ],
+   "drift_unaligned": 21.056157822539888,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 14,
+   "file": "results/milk/grok-imagine-2.0/step14.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 22.143770009385605,
+   "per_roi": [
+    20.690683127572015,
+    25.749644444444446,
+    19.99098245614035
+   ],
+   "drift_unaligned": 22.143770009385605,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 15,
+   "file": "results/milk/grok-imagine-2.0/step15.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 23.954880622337736,
+   "per_roi": [
+    22.399343621399176,
+    28.293777777777777,
+    21.171520467836256
+   ],
+   "drift_unaligned": 23.954880622337736,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 16,
+   "file": "results/milk/grok-imagine-2.0/step16.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 26.95533329723486,
+   "per_roi": [
+    25.315423868312756,
+    32.11083333333333,
+    23.43974269005848
+   ],
+   "drift_unaligned": 26.95533329723486,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 17,
+   "file": "results/milk/grok-imagine-2.0/step17.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 30.663741224460328,
+   "per_roi": [
+    29.335220164609055,
+    35.681266666666666,
+    26.974736842105262
+   ],
+   "drift_unaligned": 30.663741224460328,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 18,
+   "file": "results/milk/grok-imagine-2.0/step18.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 32.66854995307198,
+   "per_roi": [
+    31.490251028806583,
+    37.9152,
+    28.600198830409358
+   ],
+   "drift_unaligned": 32.66854995307198,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 19,
+   "file": "results/milk/grok-imagine-2.0/step19.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 36.36716826221934,
+   "per_roi": [
+    35.55729835390947,
+    42.57541111111111,
+    30.968795321637426
+   ],
+   "drift_unaligned": 36.36716826221934,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 20,
+   "file": "results/milk/grok-imagine-2.0/step20.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 39.15551664861743,
+   "per_roi": [
+    38.48398971193416,
+    45.67913333333333,
+    33.303426900584796
+   ],
+   "drift_unaligned": 39.15551664861743,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 21,
+   "file": "results/milk/grok-imagine-2.0/step21.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 41.59435093495055,
+   "per_roi": [
+    41.13436625514403,
+    49.0614,
+    34.5872865497076
+   ],
+   "drift_unaligned": 41.59435093495055,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 22,
+   "file": "results/milk/grok-imagine-2.0/step22.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 44.414400462060506,
+   "per_roi": [
+    43.47154115226338,
+    52.384677777777775,
+    37.38698245614035
+   ],
+   "drift_unaligned": 44.414400462060506,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 23,
+   "file": "results/milk/grok-imagine-2.0/step23.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 46.46630175438597,
+   "per_roi": [
+    45.028,
+    54.626133333333335,
+    39.74477192982456
+   ],
+   "drift_unaligned": 46.46630175438597,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 24,
+   "file": "results/milk/grok-imagine-2.0/step24.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 49.339431412894385,
+   "per_roi": [
+    47.155183127572016,
+    57.60888888888889,
+    43.254222222222225
+   ],
+   "drift_unaligned": 49.339431412894385,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 25,
+   "file": "results/milk/grok-imagine-2.0/step25.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 51.27299279474406,
+   "per_roi": [
+    48.08611522633745,
+    59.49648888888889,
+    46.23637426900585
+   ],
+   "drift_unaligned": 51.27299279474406,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 26,
+   "file": "results/milk/grok-imagine-2.0/step26.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 53.541187971987576,
+   "per_roi": [
+    49.4180329218107,
+    61.88446666666667,
+    49.32106432748538
+   ],
+   "drift_unaligned": 53.541187971987576,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 27,
+   "file": "results/milk/grok-imagine-2.0/step27.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 57.10837756840661,
+   "per_roi": [
+    52.132880658436214,
+    64.93298888888889,
+    54.259263157894736
+   ],
+   "drift_unaligned": 57.10837756840661,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 28,
+   "file": "results/milk/grok-imagine-2.0/step28.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 60.76224219911919,
+   "per_roi": [
+    55.07427572016461,
+    68.41587777777778,
+    58.796573099415205
+   ],
+   "drift_unaligned": 60.76224219911919,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 29,
+   "file": "results/milk/grok-imagine-2.0/step29.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 63.644586232041,
+   "per_roi": [
+    57.18520781893004,
+    71.14531111111111,
+    62.60323976608187
+   ],
+   "drift_unaligned": 63.644586232041,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 30,
+   "file": "results/milk/grok-imagine-2.0/step30.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 66.70577834091402,
+   "per_roi": [
+    60.071765432098765,
+    73.95928888888889,
+    66.08628070175439
+   ],
+   "drift_unaligned": 66.70577834091402,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 31,
+   "file": "results/milk/grok-imagine-2.0/step31.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 69.65119709046279,
+   "per_roi": [
+    62.73539711934156,
+    76.67786666666667,
+    69.54032748538012
+   ],
+   "drift_unaligned": 69.65119709046279,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 32,
+   "file": "results/milk/grok-imagine-2.0/step32.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 73.30268355353404,
+   "per_roi": [
+    66.50156995884774,
+    80.5542,
+    72.85228070175438
+   ],
+   "drift_unaligned": 73.30268355353404,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 33,
+   "file": "results/milk/grok-imagine-2.0/step33.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 75.81436325897047,
+   "per_roi": [
+    70.0542242798354,
+    83.16111111111111,
+    74.22775438596491
+   ],
+   "drift_unaligned": 75.81436325897047,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 34,
+   "file": "results/milk/grok-imagine-2.0/step34.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 79.30323175943975,
+   "per_roi": [
+    73.68332510288066,
+    86.29207777777778,
+    77.93429239766081
+   ],
+   "drift_unaligned": 79.30323175943975,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 35,
+   "file": "results/milk/grok-imagine-2.0/step35.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 82.85504570067144,
+   "per_roi": [
+    77.21377160493827,
+    89.66272222222223,
+    81.6886432748538
+   ],
+   "drift_unaligned": 82.85504570067144,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 36,
+   "file": "results/milk/grok-imagine-2.0/step36.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 86.54324098621038,
+   "per_roi": [
+    80.62969547325103,
+    93.37725555555555,
+    85.62277192982457
+   ],
+   "drift_unaligned": 86.54324098621038,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 37,
+   "file": "results/milk/grok-imagine-2.0/step37.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 90.38428405891271,
+   "per_roi": [
+    84.18546913580246,
+    97.22927777777778,
+    89.73810526315789
+   ],
+   "drift_unaligned": 90.38428405891271,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 38,
+   "file": "results/milk/grok-imagine-2.0/step38.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 94.93756967005993,
+   "per_roi": [
+    89.38698971193416,
+    101.99844444444444,
+    93.42727485380117
+   ],
+   "drift_unaligned": 94.93756967005993,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 39,
+   "file": "results/milk/grok-imagine-2.0/step39.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 98.43389370442567,
+   "per_roi": [
+    92.99491152263374,
+    106.12515555555555,
+    96.18161403508772
+   ],
+   "drift_unaligned": 98.43389370442567,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    832,
+    1248
+   ],
+   "aspect_mismatch": false,
+   "step": 40,
+   "file": "results/milk/grok-imagine-2.0/step40.jpg",
+   "blocked": false
+  }
+ ]
+}

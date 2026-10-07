@@ -1,0 +1,12 @@
+{
+ "name": "FLUX 3",
+ "method": "box edit",
+ "endpoint": "BFL API flux-3-image",
+ "params": {
+  "resolution": "1k",
+  "aspect_ratio": "auto"
+ },
+ "date": "2026-10-06",
+ "notes": "Edits that hit the provider content filter were retried until accepted; see README.",
+ "vendor": "Black Forest Labs"
+}

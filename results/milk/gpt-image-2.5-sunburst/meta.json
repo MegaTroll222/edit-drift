@@ -1,0 +1,13 @@
+{
+ "name": "GPT Image 2.5 Sunburst",
+ "method": "mask edit",
+ "endpoint": "fal openai/gpt-image-2.5/sunburst/edit",
+ "params": {
+  "quality": "high",
+  "image_size": "auto",
+  "output_format": "png"
+ },
+ "date": "2026-10-07",
+ "notes": "Edits that hit the provider content filter were retried until accepted; see README.",
+ "vendor": "OpenAI"
+}

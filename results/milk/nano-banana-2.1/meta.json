@@ -1,0 +1,12 @@
+{
+ "name": "Nano Banana 2.1",
+ "method": "plain instruction",
+ "endpoint": "fal google/nano-banana-2.1/edit",
+ "params": {
+  "resolution": "1K",
+  "output_format": "png"
+ },
+ "date": "2026-10-06",
+ "notes": "Edits that hit the provider content filter were retried until accepted; see README.",
+ "vendor": "Google"
+}

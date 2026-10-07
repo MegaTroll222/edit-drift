@@ -1,0 +1,12 @@
+{
+ "name": "Grok Imagine 2.0",
+ "method": "plain instruction",
+ "endpoint": "fal xai/grok-imagine-image/v2.0/edit",
+ "params": {
+  "resolution": "1k",
+  "output_format": "png"
+ },
+ "date": "2026-10-07",
+ "notes": "Edits that hit the provider content filter were retried until accepted; see README.",
+ "vendor": "xAI"
+}

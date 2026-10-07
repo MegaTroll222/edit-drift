@@ -1,0 +1,146 @@
+[
+ {
+  "id": "ideogram-4.5",
+  "name": "Ideogram 4.5",
+  "method": "mask edit (high precision)",
+  "fidelity_score": 99.0,
+  "final_drift": 0.71,
+  "mean_drift": 1.01,
+  "max_drift": 2.37,
+  "slope_per_edit": 0.014,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 30,
+   "orb": 10,
+   "none": 0
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
+  "id": "flux-3",
+  "name": "FLUX 3",
+  "method": "box edit",
+  "fidelity_score": 96.8,
+  "final_drift": 3.52,
+  "mean_drift": 3.18,
+  "max_drift": 4.42,
+  "slope_per_edit": 0.072,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 32,
+   "orb": 8,
+   "none": 0
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
+  "id": "gpt-image-2.5-sunburst",
+  "name": "GPT Image 2.5 Sunburst",
+  "method": "mask edit",
+  "fidelity_score": 73.4,
+  "final_drift": 45.26,
+  "mean_drift": 26.61,
+  "max_drift": 45.26,
+  "slope_per_edit": 0.947,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 33,
+   "orb": 3,
+   "none": 4
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
+  "id": "seedream-5-pro",
+  "name": "Seedream 5 Pro",
+  "method": "plain instruction",
+  "fidelity_score": 67.1,
+  "final_drift": 44.79,
+  "mean_drift": 32.86,
+  "max_drift": 44.79,
+  "slope_per_edit": 0.943,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 37,
+   "orb": 3,
+   "none": 0
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
+  "id": "grok-imagine-2.0",
+  "name": "Grok Imagine 2.0",
+  "method": "plain instruction",
+  "fidelity_score": 58.5,
+  "final_drift": 98.43,
+  "mean_drift": 41.52,
+  "max_drift": 98.43,
+  "slope_per_edit": 2.449,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 5,
+   "orb": 2,
+   "none": 33
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
+  "id": "nano-banana-2",
+  "name": "Nano Banana 2",
+  "method": "plain instruction",
+  "fidelity_score": 56.0,
+  "final_drift": 94.32,
+  "mean_drift": 44.04,
+  "max_drift": 94.32,
+  "slope_per_edit": 2.46,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 34,
+   "orb": 6,
+   "none": 0
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
+  "id": "nano-banana-2.1",
+  "name": "Nano Banana 2.1",
+  "method": "plain instruction",
+  "fidelity_score": 54.9,
+  "final_drift": 92.85,
+  "mean_drift": 45.13,
+  "max_drift": 92.85,
+  "slope_per_edit": 2.465,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 34,
+   "orb": 5,
+   "none": 1
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
+  "id": "seedream-4.5",
+  "name": "Seedream 4.5",
+  "method": "plain instruction",
+  "fidelity_score": 31.9,
+  "final_drift": 65.78,
+  "mean_drift": 68.12,
+  "max_drift": 120.54,
+  "slope_per_edit": 1.411,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 3,
+   "orb": 0,
+   "none": 37
+  },
+  "aspect_mismatch_steps": 0
+ }
+]

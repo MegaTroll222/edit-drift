@@ -1,0 +1,8 @@
+{
+  "name": "edit-drift",
+  "version": "0.1.0",
+  "description": "Edit Drift benchmark: chain 40 edits on a photo with any image model your Claude can reach, then score how much it changed what it was told to leave alone.",
+  "author": {"name": "MightyKing", "url": "https://github.com/MegaTroll222"},
+  "homepage": "https://github.com/MegaTroll222/edit-drift",
+  "license": "MIT with attribution"
+}

@@ -1,0 +1,1219 @@
+{
+ "summary": {
+  "fidelity_score": 31.9,
+  "final_drift": 65.78,
+  "mean_drift": 68.12,
+  "max_drift": 120.54,
+  "slope_per_edit": 1.411,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 3,
+   "orb": 0,
+   "none": 37
+  },
+  "aspect_mismatch_steps": 0
+ },
+ "steps": [
+  {
+   "drift": 13.652861186917912,
+   "per_roi": [
+    14.478154320987654,
+    13.882955555555556,
+    12.597473684210525
+   ],
+   "drift_unaligned": 13.669376629846221,
+   "registration": "ecc",
+   "transform": [
+    [
+     1.0011,
+     0.0,
+     -0.4246
+    ],
+    [
+     -0.0011,
+     1.0,
+     0.6217
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 1,
+   "file": "results/milk/seedream-4.5/step01.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 19.070084427117177,
+   "per_roi": [
+    21.008845679012346,
+    19.569033333333334,
+    16.632374269005847
+   ],
+   "drift_unaligned": 19.04162582485019,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.995,
+     -0.0021,
+     4.625
+    ],
+    [
+     -0.0057,
+     1.0019,
+     -0.5919
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 2,
+   "file": "results/milk/seedream-4.5/step02.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 24.493496447909894,
+   "per_roi": [
+    27.583308641975307,
+    24.35178888888889,
+    21.545391812865496
+   ],
+   "drift_unaligned": 23.95455989459245,
+   "registration": "ecc",
+   "transform": [
+    [
+     0.994,
+     0.0022,
+     -0.1264
+    ],
+    [
+     -0.004,
+     0.9914,
+     7.3372
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 3,
+   "file": "results/milk/seedream-4.5/step03.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 27.82933290737131,
+   "per_roi": [
+    22.11114609053498,
+    32.91157777777778,
+    28.46527485380117
+   ],
+   "drift_unaligned": 27.82933290737131,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 4,
+   "file": "results/milk/seedream-4.5/step04.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 31.93979522778139,
+   "per_roi": [
+    29.37161316872428,
+    35.19787777777778,
+    31.249894736842105
+   ],
+   "drift_unaligned": 31.93979522778139,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 5,
+   "file": "results/milk/seedream-4.5/step05.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 47.49575954804707,
+   "per_roi": [
+    36.17422016460905,
+    37.45744444444444,
+    68.85561403508773
+   ],
+   "drift_unaligned": 47.49575954804707,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 6,
+   "file": "results/milk/seedream-4.5/step06.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 52.17675124539744,
+   "per_roi": [
+    44.27232098765432,
+    39.90394444444444,
+    72.35398830409356
+   ],
+   "drift_unaligned": 52.17675124539744,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 7,
+   "file": "results/milk/seedream-4.5/step07.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 55.643592484297166,
+   "per_roi": [
+    50.37016049382716,
+    41.37116666666667,
+    75.18945029239767
+   ],
+   "drift_unaligned": 55.643592484297166,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 8,
+   "file": "results/milk/seedream-4.5/step08.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 57.77245360623781,
+   "per_roi": [
+    54.17088888888889,
+    42.04147777777778,
+    77.10499415204679
+   ],
+   "drift_unaligned": 57.77245360623781,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 9,
+   "file": "results/milk/seedream-4.5/step09.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 69.50647112121868,
+   "per_roi": [
+    58.89931687242798,
+    70.03994444444444,
+    79.58015204678362
+   ],
+   "drift_unaligned": 69.50647112121868,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 10,
+   "file": "results/milk/seedream-4.5/step10.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 71.10537298390007,
+   "per_roi": [
+    61.76398971193416,
+    70.02354444444444,
+    81.52858479532163
+   ],
+   "drift_unaligned": 71.10537298390007,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 11,
+   "file": "results/milk/seedream-4.5/step11.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 71.79429742978846,
+   "per_roi": [
+    63.63364609053498,
+    69.8581,
+    81.89114619883041
+   ],
+   "drift_unaligned": 71.79429742978846,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 12,
+   "file": "results/milk/seedream-4.5/step12.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 72.20708062233773,
+   "per_roi": [
+    64.89839917695473,
+    69.62554444444444,
+    82.09729824561404
+   ],
+   "drift_unaligned": 72.20708062233773,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 13,
+   "file": "results/milk/seedream-4.5/step13.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 72.93351465598153,
+   "per_roi": [
+    65.8657427983539,
+    70.25188888888889,
+    82.68291228070176
+   ],
+   "drift_unaligned": 72.93351465598153,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 14,
+   "file": "results/milk/seedream-4.5/step14.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 73.69031155873222,
+   "per_roi": [
+    67.54269958847736,
+    70.41953333333333,
+    83.10870175438596
+   ],
+   "drift_unaligned": 73.69031155873222,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 15,
+   "file": "results/milk/seedream-4.5/step15.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 65.76434958486753,
+   "per_roi": [
+    68.36215226337448,
+    70.30541111111111,
+    58.625485380116956
+   ],
+   "drift_unaligned": 65.76434958486753,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 16,
+   "file": "results/milk/seedream-4.5/step16.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 66.64765889827449,
+   "per_roi": [
+    69.44773868312757,
+    70.5187,
+    59.97653801169591
+   ],
+   "drift_unaligned": 66.64765889827449,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 17,
+   "file": "results/milk/seedream-4.5/step17.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 76.18474339036892,
+   "per_roi": [
+    70.15973251028807,
+    96.50032222222222,
+    61.89417543859649
+   ],
+   "drift_unaligned": 76.18474339036892,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 18,
+   "file": "results/milk/seedream-4.5/step18.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 76.97916523716698,
+   "per_roi": [
+    70.99124074074074,
+    96.98804444444444,
+    62.95821052631579
+   ],
+   "drift_unaligned": 76.97916523716698,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 19,
+   "file": "results/milk/seedream-4.5/step19.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 77.98342637354703,
+   "per_roi": [
+    71.57986625514403,
+    97.54815555555555,
+    64.82225730994152
+   ],
+   "drift_unaligned": 77.98342637354703,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 20,
+   "file": "results/milk/seedream-4.5/step20.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 77.70576791567396,
+   "per_roi": [
+    70.8394341563786,
+    97.31381111111111,
+    64.96405847953217
+   ],
+   "drift_unaligned": 77.70576791567396,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 21,
+   "file": "results/milk/seedream-4.5/step21.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 77.78712871272832,
+   "per_roi": [
+    71.83731069958847,
+    98.36256666666667,
+    63.161508771929824
+   ],
+   "drift_unaligned": 77.78712871272832,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 22,
+   "file": "results/milk/seedream-4.5/step22.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 78.02019791350806,
+   "per_roi": [
+    71.96225514403292,
+    98.44556666666666,
+    63.65277192982456
+   ],
+   "drift_unaligned": 78.02019791350806,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 23,
+   "file": "results/milk/seedream-4.5/step23.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 52.06611988304093,
+   "per_roi": [
+    71.60155555555555,
+    49.247166666666665,
+    35.349637426900586
+   ],
+   "drift_unaligned": 52.06611988304093,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 24,
+   "file": "results/milk/seedream-4.5/step24.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 52.945447238466535,
+   "per_roi": [
+    72.4440925925926,
+    48.92682222222222,
+    37.465426900584795
+   ],
+   "drift_unaligned": 52.945447238466535,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 25,
+   "file": "results/milk/seedream-4.5/step25.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 52.509368254999636,
+   "per_roi": [
+    71.98007201646091,
+    48.55137777777778,
+    36.99665497076023
+   ],
+   "drift_unaligned": 52.509368254999636,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 26,
+   "file": "results/milk/seedream-4.5/step26.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 53.33041187639881,
+   "per_roi": [
+    72.19154732510287,
+    48.61125555555556,
+    39.18843274853801
+   ],
+   "drift_unaligned": 53.33041187639881,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 27,
+   "file": "results/milk/seedream-4.5/step27.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 89.1808830120569,
+   "per_roi": [
+    72.74176131687243,
+    71.88068888888888,
+    122.92019883040936
+   ],
+   "drift_unaligned": 89.1808830120569,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 28,
+   "file": "results/milk/seedream-4.5/step28.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 95.98286823334054,
+   "per_roi": [
+    75.14850411522633,
+    62.1232,
+    150.67690058479533
+   ],
+   "drift_unaligned": 95.98286823334054,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 29,
+   "file": "results/milk/seedream-4.5/step29.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 96.0008812865497,
+   "per_roi": [
+    74.40927777777777,
+    63.29804444444444,
+    150.2953216374269
+   ],
+   "drift_unaligned": 96.0008812865497,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 30,
+   "file": "results/milk/seedream-4.5/step30.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 96.49795648689626,
+   "per_roi": [
+    73.8893086419753,
+    64.43001111111111,
+    151.17454970760235
+   ],
+   "drift_unaligned": 96.49795648689626,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 31,
+   "file": "results/milk/seedream-4.5/step31.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 96.28894359974011,
+   "per_roi": [
+    73.26496296296297,
+    64.96673333333334,
+    150.635134502924
+   ],
+   "drift_unaligned": 96.28894359974011,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 32,
+   "file": "results/milk/seedream-4.5/step32.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 120.53755706447187,
+   "per_roi": [
+    90.16786008230453,
+    141.12614444444444,
+    130.31866666666667
+   ],
+   "drift_unaligned": 120.53755706447187,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 33,
+   "file": "results/milk/seedream-4.5/step33.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 99.34949504006931,
+   "per_roi": [
+    89.56372839506173,
+    140.01317777777777,
+    68.47157894736841
+   ],
+   "drift_unaligned": 99.34949504006931,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 34,
+   "file": "results/milk/seedream-4.5/step34.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 76.2426574904339,
+   "per_roi": [
+    71.27088065843621,
+    90.20281111111112,
+    67.25428070175438
+   ],
+   "drift_unaligned": 76.2426574904339,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 35,
+   "file": "results/milk/seedream-4.5/step35.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 76.62663965778644,
+   "per_roi": [
+    71.46832716049383,
+    90.28286666666666,
+    68.12872514619883
+   ],
+   "drift_unaligned": 76.62663965778644,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 36,
+   "file": "results/milk/seedream-4.5/step36.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 82.65574584506534,
+   "per_roi": [
+    100.39818724279836,
+    98.12515555555555,
+    49.443894736842104
+   ],
+   "drift_unaligned": 82.65574584506534,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 37,
+   "file": "results/milk/seedream-4.5/step37.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 93.57982139917696,
+   "per_roi": [
+    101.06564197530864,
+    100.02382222222222,
+    79.65
+   ],
+   "drift_unaligned": 93.57982139917696,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 38,
+   "file": "results/milk/seedream-4.5/step38.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 66.93265930257743,
+   "per_roi": [
+    71.43808024691359,
+    51.8375,
+    77.52239766081871
+   ],
+   "drift_unaligned": 66.93265930257743,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 39,
+   "file": "results/milk/seedream-4.5/step39.jpg",
+   "blocked": false
+  },
+  {
+   "drift": 65.77513469785576,
+   "per_roi": [
+    69.78755555555556,
+    51.17487777777778,
+    76.36297076023392
+   ],
+   "drift_unaligned": 65.77513469785576,
+   "registration": "none",
+   "transform": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ]
+   ],
+   "output_size": [
+    1600,
+    2400
+   ],
+   "aspect_mismatch": false,
+   "step": 40,
+   "file": "results/milk/seedream-4.5/step40.jpg",
+   "blocked": false
+  }
+ ]
+}

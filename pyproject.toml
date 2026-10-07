@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edit-drift"
+version = "0.1.0"
+description = "Measure how much image-editing models change what they were told to leave alone, across chained edits."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "MightyKing"}]
+license = {text = "MIT with attribution - see LICENSE"}
+dependencies = ["numpy", "pillow", "opencv-python-headless", "matplotlib"]
+
+[project.scripts]
+editdrift = "editdrift.cli:main"
+
+[tool.setuptools]
+packages = ["editdrift"]
+
+[tool.setuptools.package-data]
+editdrift = ["assets/*"]
+
+[project.urls]
+Homepage = "https://github.com/MegaTroll222/edit-drift"

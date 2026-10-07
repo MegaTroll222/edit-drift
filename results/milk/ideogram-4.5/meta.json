@@ -1,0 +1,12 @@
+{
+ "name": "Ideogram 4.5",
+ "method": "mask edit (high precision)",
+ "endpoint": "fal ideogram/v4.5/edit",
+ "params": {
+  "edit_precision": "high",
+  "quality": "high"
+ },
+ "date": "2026-10-07",
+ "notes": "Edits that hit the provider content filter were retried until accepted; see README.",
+ "vendor": "Ideogram"
+}
