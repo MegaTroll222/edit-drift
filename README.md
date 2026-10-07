@@ -4,6 +4,10 @@
 
 ![Image models ranked by Edit Fidelity](docs/charts/leaderboard.png)
 
+**How to read this chart.** Each model made the same 40 edits in a row on the same photo, each edit applied to its own previous result. After every edit we measure **drift**: how much the parts of the photo that no edit touched (bare wall) changed from the original, as the average pixel difference on a 0–255 scale. We average those 40 drift numbers, and the **Edit Fidelity Score is 100 minus that average**. 100 means the untouched areas never changed; lower means the model kept altering what it was told to leave alone.
+
+The score uses the average over all 40 edits, not just the last one, so a model can't look good because its final frame happens to land close to the original. That's why two models can swap places between "score" and "final drift" in the table below. Full method in [The metric](#the-metric).
+
 | Rank | Model | Vendor | Method | Edit Fidelity Score ↑ | Mean drift ↓ | Final drift ↓ | Drift / edit |
 |---|---|---|---|---|---|---|---|
 | 1 | Ideogram 4.5 | Ideogram | mask edit (high precision) | **99.0** | 1.0 | 0.7 | 0.01 |
