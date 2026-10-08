@@ -2,7 +2,7 @@
  "name": "Nano Banana 2.1 (multi-turn)",
  "vendor": "Google",
  "method": "plain instruction, multi-turn",
- "endpoint": "google-genai SDK, interactions.create(gemini-nano-banana-2.1, previous_interaction_id=...)",
+ "endpoint": "Gemini Interactions API (multi-turn, previous_interaction_id) - see docs/methods/nano-banana-multiturn.md",
  "params": {
   "response_modalities": [
    "image"
@@ -52,5 +52,6 @@
   "39": "v1_ChYwT3ZHYXV5MUdLbmhyZmNQZzdIMktREhZHX0hHYXRVTWlQM1Y3d19aLTV1Z0JB",
   "40": "v1_ChYwT3ZHYXV5MUdLbmhyZmNQZzdIMktREhdWUEhHYW82eUJhQ1M5dE1Qc1p6QmtRdw"
  },
- "notes": "One server-side conversation for all 40 edits; only the original image was uploaded. Each turn chains on the previous interaction id. Outputs saved exactly as returned by the API."
+ "notes": "One server-side conversation for all 40 edits; only the original image was uploaded. Each turn chains on the previous interaction id. Outputs saved exactly as returned by the API. Images re-encoded to JPEG q92 to match the rest of the dataset.",
+ "contributor": "Tom Beckenham (github.com/tombeckenham)"
 }
