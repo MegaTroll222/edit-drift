@@ -8,4 +8,5 @@
 | 6 | Grok Imagine 2.0 | xAI | plain instruction | **58.5** | 41.5 | 98.4 | 2.45 | 0 / 40 |
 | 7 | Nano Banana 2 | Google | plain instruction | **56.0** | 44.0 | 94.3 | 2.46 | 0 / 40 |
 | 8 | Nano Banana 2.1 | Google | plain instruction | **54.9** | 45.1 | 92.8 | 2.46 | 0 / 40 |
-| 9 | Seedream 4.5 | ByteDance | plain instruction | **31.9** | 68.1 | 65.8 | 1.41 | 0 / 40 |
+| 9 | Nano Banana 2.1 (multi-turn) | Google | plain instruction, multi-turn | **48.5** | 51.5 | 73.3 | 1.90 | 0 / 40 |
+| 10 | Seedream 4.5 | ByteDance | plain instruction | **31.9** | 68.1 | 65.8 | 1.41 | 0 / 40 |

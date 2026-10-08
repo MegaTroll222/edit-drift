@@ -144,6 +144,24 @@
   "aspect_mismatch_steps": 0
  },
  {
+  "id": "nano-banana-2.1-multiturn",
+  "name": "Nano Banana 2.1 (multi-turn)",
+  "method": "plain instruction, multi-turn",
+  "fidelity_score": 48.5,
+  "final_drift": 73.29,
+  "mean_drift": 51.52,
+  "max_drift": 87.58,
+  "slope_per_edit": 1.896,
+  "steps": 40,
+  "blocked_steps": 0,
+  "registration": {
+   "ecc": 34,
+   "orb": 5,
+   "none": 1
+  },
+  "aspect_mismatch_steps": 0
+ },
+ {
   "id": "seedream-4.5",
   "name": "Seedream 4.5",
   "method": "plain instruction",

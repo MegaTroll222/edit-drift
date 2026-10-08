@@ -18,9 +18,12 @@ The score uses the average over all 40 edits, not just the last one, so a model 
 | 6 | Grok Imagine 2.0 | xAI | plain instruction | **58.5** | 41.5 | 98.4 | 2.45 |
 | 7 | Nano Banana 2 | Google | plain instruction | **56.0** | 44.0 | 94.3 | 2.46 |
 | 8 | Nano Banana 2.1 | Google | plain instruction | **54.9** | 45.1 | 92.8 | 2.46 |
-| 9 | Seedream 4.5 | ByteDance | plain instruction | **31.9** | 68.1 | 65.8 | 1.41 |
+| 9 | Nano Banana 2.1 (multi-turn) ¹ | Google | plain instruction, multi-turn | **48.5** | 51.5 | 73.3 | 1.90 |
+| 10 | Seedream 4.5 | ByteDance | plain instruction | **31.9** | 68.1 | 65.8 | 1.41 |
 
-*Milk benchmark, October 2026. All 9 ranked models completed all 40 edits.*
+*Milk benchmark, October 2026. All 10 ranked runs completed all 40 edits.*
+
+¹ Run as one server-side conversation, as Google recommends for iterating on images, instead of separate requests. Contributed by [Tom Beckenham](https://github.com/tombeckenham) — [how it was run](docs/methods/nano-banana-multiturn.md).
 
 **Partial runs (not ranked).** Qwen Image 3 and GPT Image 2.5 Flare did not complete the chain, so they are not scored against full runs; their images are in [`results/milk-partial/`](results/milk-partial/). Qwen Image 3 stopped after 8 edits at drift 24.7 (FLUX 3 at the same edit: 0.5, Nano Banana 2.1: 13.7). GPT Image 2.5 Flare's content filter refused its own output from edit 12 onward (160+ attempts); at edit 11 it was at drift 19.4 (FLUX 3: 3.5, Nano Banana 2.1: 20.9).
 
@@ -151,6 +154,7 @@ Each step in `scores.json` records the registration method used, the transform, 
 - **Masks alone don't stop drift.** GPT Image 2.5 Sunburst received a mask on every edit and still re-rendered the whole frame each time: 45.3 drift after 40 edits. The mask controls where the requested change lands, not what happens to everything else.
 - **Pixel restoration wins.** Ideogram 4.5's high-precision mode copies untouched pixels back after each edit, which is why it stays at 0.7.
 - **Plain-instruction models drift linearly.** Nano Banana 2, Nano Banana 2.1 and Grok Imagine 2.0 lose about 2.5 points per edit, almost identically.
+- **Google's recommended multi-turn mode doesn't save Nano Banana 2.1.** Running the chain as one conversation, so the model works from its own stored state, scores 48.5 against 54.9 for separate requests, and the same block texture appears on the wall ([details](docs/methods/nano-banana-multiturn.md)).
 - **Seedream 4.5 drifts erratically,** peaking above 120 mid-chain and partly recovering, which is why it ranks last on the whole-chain score despite a mid-table final frame.
 
 ## Limitations
@@ -158,6 +162,12 @@ Each step in `scores.json` records the registration method used, the transform, 
 - **Different interfaces.** Masked, boxed and plain-instruction models get different inputs. That's deliberate: the benchmark compares each model's best documented precision-edit method, not identical inputs.
 - **Small n.** One photo, one chain per model, no seed sweep. More benchmark photos are coming.
 - **Drift isn't edit quality.** It measures preservation of untouched areas, not whether each edit was done well. The videos and the full image set show edit quality.
+
+## Contributors
+
+- [Tom Beckenham](https://github.com/tombeckenham): Nano Banana 2.1 multi-turn run ([#1](https://github.com/MegaTroll222/edit-drift/pull/1)).
+
+Have a model, a setting or a method we should test? Open a pull request with your run folder (`step01…step40`, `meta.json`) and written instructions for how you called the model. Please don't include provider code or keys.
 
 ## Credit
 
